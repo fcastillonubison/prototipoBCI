@@ -1,0 +1,41 @@
+{
+	"_id": "3018369",
+	"_icon": "C:\\Users\\Desarrollador\\Documents\\Nubison Banco\\BCI.WebProjects\\Default.WebProject\\img\\favicon.png",
+	"_ssL": "",
+	"_ssP": "",
+	"_ssA9": "",
+	"_initialUxComponent": "main",
+	"_componentLastUpdated": "21/02/2018 04:43:01 05 pm",
+	"_ajaxUrl": "http://nubisonlab.cl:1580/bci/",
+	"_additionalFiles": "img\\atm.png\nimg\\bank.png\nimg\\Cube-1s-200px.gif\nimg\\favicon.png\nimg\\icons8-reduce-filled-50.png\nimg\\icons8-sort-down-filled-50.png\nimg\\icons8-sort-up-filled-50.png\nimg\\logo-bci.png\nimg\\presentation-5.png\ncss\\framework7.md.min.css\njs\\framework7.min.js\nimg\\graph-2.png\nimg\\money.png\nimg\\mortgage.png\nimg\\price-tag-4.png\nimg\\wallet-1.png",
+	"_userName": "wtwx6irfQI3iOx7OvgJt1zo2UrrNaJJqmN8Feh/S5gI=",
+	"_pw": "nEUmwR92tRwv6SDFKfexhg==",
+	"_token": "",
+	"timeout": {
+		"phoneGapBuild": "<default>",
+		"phoneGapBuildLogin": "<default>",
+		"getAppIcon": "<default>"
+	},
+	"apperian": {
+		"enableOptions": false,
+		"loginName": "osLnGM4pUcQ=",
+		"password": "c5JMXi9Y+Ko=",
+		"serverURL": "https://easesvc.apperian.com/ease.interface.php"
+	},
+	"backupConfigFile": true,
+	"_phonegapBuilderVersion": "1",
+	"useImageMagick": true,
+	"indexHTMLMetaTags": "",
+	"genAppZipFile": false,
+	"zipFileLocation": "",
+	"buildTarget": "Phonegap Build",
+	"cliProjectFolder": "",
+	"_androidBuildFlag": true,
+	"_iOSBuildFlag": false,
+	"_windowsBuildFlag": false,
+	"_baseLineGuid": "a22e17b8e9f54a0db6054a5d6deee61d",
+	"enableInstantUpdate": false,
+	"instantUpdateSettingsJSON": "",
+	"launchAppManager": true,
+	"_sqlitedbdefined": false
+}

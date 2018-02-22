@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<meta name="generator" content="Alpha Anywhere HTML Editor Version 12 Build 4851-5036">
+<!-- must use in order to make XP Themes render -->
+<meta HTTP-EQUIV="MSThemeCompatible" content="Yes" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<head>
+<title></title>
+
+<%a5
+Delete tmpl_MAIN
+DIM tmpl_MAIN as P
+tmpl_MAIN = a5w_load_component("main") ''SYSTEM GENERATED COMMENT - PLEASE DO NOT REMOVE (LOAD:main)
+
+'Override settings start -----------------------------------------
+with tmpl_MAIN
+.alias = "MAIN"
+_dialogFilename = "main"
+end with 
+'Override settings end -----------------------------------------
+
+delete x_MAIN
+dim x_MAIN as p
+x_MAIN = a5w_run_Component(tmpl_MAIN) 'SYSTEM GENERATED COMMENT - PLEASE DO NOT REMOVE (RUN:tmpl) (EDIT:main)
+
+?x_MAIN.Output.Head.JavaScript
+?x_MAIN.Output.Head.CSS_Link
+
+?x_MAIN.Output.Head.Title 
+%>
+
+
+<!--Alpha Five Temporary Code Start - Will be automatically removed when page is published -->
+<!--CSS for tmpl -->
+<link rel="stylesheet" type="text/css" href="file:///C:/Program Files (x86)/a5V12/css/iOS7/style.css">
+<!--Alpha Five Temporary Code End -->
+
+</head>
+<body>
+
+<%a5 ?x_MAIN.Output.Body.Dialog2_HTML %>
+<%a5 ?a5dialogHelper_generateCORSHeaders() %>
+
+</body></html>

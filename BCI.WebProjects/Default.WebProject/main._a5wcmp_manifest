@@ -1,0 +1,37 @@
+A5SaveTimeStamp:20180221164300941
+css:iOS7
+cssIcon:font-awesome
+subComponent:indicadores.a5wcmp
+subComponent:sucursales.a5wcmp
+subComponent:cajeros.a5wcmp
+subComponent:credhip.a5wcmp
+subComponent:descuentos.a5wcmp
+subComponent:credcons.a5wcmp
+subComponent:cuentas.a5wcmp
+subComponent:analitica.a5wcmp
+copyfile:{C:\Users\Desarrollador\Documents\Nubison Banco\BCI.WebProjects\Default.WebProject\img\logo-bci.png}
+copyfile:{C:\Users\Desarrollador\Documents\Nubison Banco\BCI.WebProjects\Default.WebProject\img\presentation-5.png}
+copyfile:{C:\Users\Desarrollador\Documents\Nubison Banco\BCI.WebProjects\Default.WebProject\img\bank.png}
+copyfile:{C:\Users\Desarrollador\Documents\Nubison Banco\BCI.WebProjects\Default.WebProject\img\atm.png}
+copyfile:{C:\Users\Desarrollador\Documents\Nubison Banco\BCI.WebProjects\Default.WebProject\img\price-tag-4.png}
+copyfile:{C:\Users\Desarrollador\Documents\Nubison Banco\BCI.WebProjects\Default.WebProject\img\mortgage.png}
+copyfile:{C:\Users\Desarrollador\Documents\Nubison Banco\BCI.WebProjects\Default.WebProject\img\money.png}
+copyfile:{C:\Users\Desarrollador\Documents\Nubison Banco\BCI.WebProjects\Default.WebProject\img\wallet-1.png}
+copyfile:{C:\Users\Desarrollador\Documents\Nubison Banco\BCI.WebProjects\Default.WebProject\img\graph-2.png}
+copyfile:{C:\Users\Desarrollador\Documents\Nubison Banco\BCI.WebProjects\Default.WebProject\img\Cube-1s-200px.gif}
+subComponent:indicadores
+subComponent:sucursales
+subComponent:cajeros
+subComponent:credhip
+subComponent:descuentos
+subComponent:credcons
+subComponent:cuentas
+subComponent:analitica
+precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_516361af264c4970b7c54c961fcd4384_indicadores', uxname: 'indicadores', alias: '{alias}_INDICADORES'}
+precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_4413830a12054fb8ab750a912fc667b5_sucursales', uxname: 'sucursales', alias: '{alias}_SUCURSALES'}
+precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_2e3b69d6ac6d4c8ab71179967d91b8a6_cajeros', uxname: 'cajeros', alias: '{alias}_CAJEROS'}
+precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_1227bd2795f44bc1b0d6c93669143358_credhip', uxname: 'credhip', alias: '{alias}_CREDHIP'}
+precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_1ebb9d5cd63546eeaf6e38957e93fed6_descuentos', uxname: 'descuentos', alias: '{alias}_DESCUENTOS'}
+precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_0790107843ef4de381533cccf013aec7_credcons', uxname: 'credcons', alias: '{alias}_CREDCONS'}
+precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_721885b9abf34d22a6cceb2690edf8af_cuentas', uxname: 'cuentas', alias: '{alias}_CUENTAS'}
+precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_5243ff6bb4b5450ca363d6b537c124d9_analitica', uxname: 'analitica', alias: '{alias}_ANALITICA'}

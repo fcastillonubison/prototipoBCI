@@ -1,0 +1,3 @@
+curl2|$a5_play_script
+curl|$a5_play_script
+http fetch|$a5_play_script
