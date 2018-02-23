@@ -166,7 +166,7 @@
         "info": {
             "createdBy": "Desarrollador",
             "dateCreated": "2018-2-19",
-            "dateLastEdited": "2018-2-21"
+            "dateLastEdited": "2018-2-22"
         },
         "flagShowCommentsInTree": true,
         "treeCommentOffset": "6",
@@ -203,15 +203,33 @@
         "page_fields": [
             {
                 "controlType": "layout_directive_PanelCardBegin",
-                "display": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{Data=d7503e82-723d-4ab1-98f3-6c6ad02668f2}{I:'$$web.panel.card'} [Panel Card: PANELCARD_1]  (H)",
-                "displayODFlat": "{Data=d7503e82-723d-4ab1-98f3-6c6ad02668f2}{I:'$$web.panel.card'} [Panel Card: PANELCARD_1]",
-                "idInternal": "d7503e82-723d-4ab1-98f3-6c6ad02668f2",
+                "display": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{Data=8da34602-cdc9-47bb-9469-7be65ca9b4fb}{I:'$$web.panel.card'} [Panel Card: PANELCARD_1]  (H)",
+                "displayODFlat": "{Data=8da34602-cdc9-47bb-9469-7be65ca9b4fb}{I:'$$web.panel.card'}[Panel Card Begin]",
+                "idInternal": "8da34602-cdc9-47bb-9469-7be65ca9b4fb",
                 "lastIndex": 9,
                 "parentContainer": -1,
                 "displayOD": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{Data=d7503e82-723d-4ab1-98f3-6c6ad02668f2}{I:'$$web.panel.card'} [Panel Card: PANELCARD_1]",
                 "repeatingSectionParentId": -1,
-                "displayODtree": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{Data=d7503e82-723d-4ab1-98f3-6c6ad02668f2}{I:'$$web.panel.card'} [Panel Card: PANELCARD_1]  (H)",
-                "crc": "4294927741",
+                "displayODtree": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{Data=8da34602-cdc9-47bb-9469-7be65ca9b4fb}{I:'$$web.panel.card'} [Panel Card: PANELCARD_1]  (H)",
+                "crc": "4294936715",
+                "indentTree": 0,
+                "precalc": {
+                    "ControlHTML": "'xbasic\n\nv._dirty = .f.\n\n\n",
+                    "DesignViewHTML": "",
+                    "javascript": {
+                        "panel": "new A5.PanelCard({\n\ttheme: '{dialog.style}',\n\tbody: {\n\t\tcontent: {\n\t\t\ttype: 'html',\n\t\t\tsrc: '<div \\tid=\"{dialog.componentName}.V.R{dialog.rownumber}.CONTAINER_1\"   \\n\\t\\t\\tclass=\"\"  style=\"width: 100%; height: 100%; \"  ><!--DIV for Container control-->\\n<div class=\"A5CWLayout\" style=\"width: 4in\" >\\n\\t<!--FldS--><div id=\"{grid.componentname}.V.R{grid.rownumber}.SUCURSALESMAP.CONTROL\"  style=\"width: 100%; height: 4in; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; \"></div>\\n<!--FldE-->\\n</div>\\n<div style=\"font: 0pt arial;clear:both;\"></div>\\n\\t</div>\\n\\n<div style=\"display:none;\"><span><!--JSControlStart--><input type=\"hidden\" id=\"{grid.componentname}.V.R{grid.rownumber}.SUCURSALES\" name=\"V.R{grid.rownumber}.SUCURSALES\" /><!--JSControlEnd-->\\n<div  class=\"[theme:listBox.base.className|{dialog.style}List]\"   style=\"padding:0px; \"  >\\n\\t<div id=\"{grid.componentname}.V.R{grid.rownumber}.SUCURSALES.CONTROL\"  class=\"{grid.componentName}_SUCURSALES\" style=\"overflow: auto; width: 100%; height: 3in; \"></div>\\n</div>\\n</span>\\n</div><div style=\"clear: both; font: 0px arial; height: 0px; width: 0px;\"></div>'\n\t\t},\n\t\tscroll: false\n\t},\n\theader: {\n\t\thtml: '<div class=\"\" style=\"width: \" > \\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_1\" title=\"\"  class=\"\" style=\"box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   ><h4 class=\"text-color-white text-align-center no-margin\">SUCURSALES</h4></div> </div> <div style=\"display:none;\"><!--A5HiddenFields--></div>',\n\t\tshow: true,\n\t\tstyle: 'background-color:#006ED1;'\n\t},\n\tfooter: {\n\t},\n\toverlay: {\n\t},\n\tonSize: function() {;if(typeof {dialog.object} != 'undefined') {\n\tif(typeof {dialog.object}._findActiveLayoutRule != 'undefined') { \n\t\t{dialog.object}._findActiveLayoutRule();\n\t\t\n\t}\n}\n\nif(typeof {dialog.object} != 'undefined') {var mObj = {dialog.object}.getControl('SUCURSALESMAP'); if(mObj) mObj.refresh();}\nif(typeof {dialog.object} != 'undefined') {var mObj = {dialog.object}.getControl('SUCURSALES'); if(mObj) mObj.refresh();}\nif(typeof {dialog.object} != 'undefined' && typeof {dialog.object}._panelCardResize != 'undefined') { {dialog.object}._panelCardResize('PANELCARD_1'); };}\n})"
+                    }
+                },
+                "shortControlType": "PANELCARDBEGIN",
+                "p": {
+                    "lastbutton": "OK",
+                    "control": "[Panel Card Begin]",
+                    "controltype": "layout_directive_PanelCardBegin",
+                    "icon": "$$web.panel.card",
+                    "insertBeginTag": true,
+                    "insertClosingTag": false,
+                    "position": "Around"
+                },
                 "v": {
                     "container": {
                         "id": "PANELCARD_1"
@@ -255,38 +273,42 @@
                         },
                         "type": "Default"
                     }
-                },
-                "indentTree": 0,
-                "precalc": {
-                    "ControlHTML": "'xbasic\n\nv._dirty = .f.\n\n\n",
-                    "DesignViewHTML": "",
-                    "javascript": {
-                        "panel": "new A5.PanelCard({\n\ttheme: '{dialog.style}',\n\tbody: {\n\t\tcontent: {\n\t\t\ttype: 'html',\n\t\t\tsrc: '<div \\tid=\"{dialog.componentName}.V.R{dialog.rownumber}.CONTAINER_1\"   \\n\\t\\t\\tclass=\"\"  style=\"width: 100%; height: 100%; \"  ><!--DIV for Container control-->\\n<div class=\"A5CWLayout\" style=\"width: 4in\" >\\n\\t<!--FldS--><div id=\"{grid.componentname}.V.R{grid.rownumber}.SUCURSALESMAP.CONTROL\"  style=\"width: 100%; height: 4in; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; \"></div>\\n<!--FldE-->\\n</div>\\n<div style=\"font: 0pt arial;clear:both;\"></div>\\n\\t</div>\\n\\n<div style=\"display:none;\"><span><!--JSControlStart--><input type=\"hidden\" id=\"{grid.componentname}.V.R{grid.rownumber}.SUCURSALES\" name=\"V.R{grid.rownumber}.SUCURSALES\" /><!--JSControlEnd-->\\n<div  class=\"[theme:listBox.base.className|{dialog.style}List]\"   style=\"padding:0px; \"  >\\n\\t<div id=\"{grid.componentname}.V.R{grid.rownumber}.SUCURSALES.CONTROL\"  class=\"{grid.componentName}_SUCURSALES\" style=\"overflow: auto; width: 100%; height: 3in; \"></div>\\n</div>\\n</span>\\n</div><div style=\"clear: both; font: 0px arial; height: 0px; width: 0px;\"></div>'\n\t\t},\n\t\tscroll: false\n\t},\n\theader: {\n\t\thtml: '<div class=\"\" style=\"width: \" > \\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_1\" title=\"\"  class=\"\" style=\"box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   ><h4 class=\"text-color-white text-align-center no-margin\">SUCURSALES</h4></div> </div> <div style=\"display:none;\"><!--A5HiddenFields--></div>',\n\t\tshow: true,\n\t\tstyle: 'background-color:#006ED1;'\n\t},\n\tfooter: {\n\t},\n\toverlay: {\n\t},\n\tonSize: function() {;if(typeof {dialog.object} != 'undefined') {\n\tif(typeof {dialog.object}._findActiveLayoutRule != 'undefined') { \n\t\t{dialog.object}._findActiveLayoutRule();\n\t\t\n\t}\n}\n\nif(typeof {dialog.object} != 'undefined') {var mObj = {dialog.object}.getControl('SUCURSALESMAP'); if(mObj) mObj.refresh();}\nif(typeof {dialog.object} != 'undefined') {var mObj = {dialog.object}.getControl('SUCURSALES'); if(mObj) mObj.refresh();}\nif(typeof {dialog.object} != 'undefined' && typeof {dialog.object}._panelCardResize != 'undefined') { {dialog.object}._panelCardResize('PANELCARD_1'); };}\n})"
-                    }
                 }
             },
             {
                 "controlType": "layout_directive_ContainerBegin",
-                "display": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertLine'}{Data=3f42ee7a_6837_422a_ad31_77a5086fd7c8}{I:'$$web.panel.header'} [PanelHeader: PANELHEADER_1]",
-                "displayODFlat": "{Data=3f42ee7a_6837_422a_ad31_77a5086fd7c8}{I:'$$format.border.style.dash'} [Container: PANELHEADER_1]",
-                "idInternal": "3f42ee7a_6837_422a_ad31_77a5086fd7c8",
+                "display": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertLine'}{Data=a9eee2cf-48c0-418d-a777-6e93c1836247}{I:'$$web.panel.header'} [PanelHeader: PANELHEADER_1]",
+                "displayODFlat": "{Data=a9eee2cf-48c0-418d-a777-6e93c1836247}{I:'$$format.border.style.dash'}[Container Begin]",
+                "idInternal": "a9eee2cf-48c0-418d-a777-6e93c1836247",
                 "lastIndex": 4,
                 "parentContainer": 1,
                 "displayOD": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=3f42ee7a_6837_422a_ad31_77a5086fd7c8}{I:'$$format.border.style.dash'} [Container: PANELHEADER_1]",
                 "repeatingSectionParentId": -1,
-                "displayODtree": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertLine'}{Data=3f42ee7a_6837_422a_ad31_77a5086fd7c8}{I:'$$web.panel.header'} [PanelHeader: PANELHEADER_1]",
-                "crc": "4294923734",
+                "displayODtree": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertLine'}{Data=a9eee2cf-48c0-418d-a777-6e93c1836247}{I:'$$web.panel.header'} [PanelHeader: PANELHEADER_1]",
+                "crc": "4294948068",
+                "indentTree": 1,
+                "precalc": {
+                    "ControlHTML": "<div \tid=\"{dialog.componentName}.V.R{dialog.rownumber}.PANELHEADER_1\"   \n\t\t\tclass=\"A5CWLayout \"  style=\"background-color: #006ED1; \"  ><!--DIV for Container control-->",
+                    "DesignViewHTML": ""
+                },
+                "shortControlType": "CONTAINERBEGIN",
+                "p": {
+                    "lastbutton": "OK",
+                    "control": "[Container Begin]",
+                    "controltype": "layout_directive_ContainerBegin",
+                    "icon": "$$format.border.style.dash"
+                },
                 "v": {
                     "container": {
                         "ID": "PANELHEADER_1",
                         "style": "background-color:#006ED1;",
                         "contentAlignment": "Left",
+                        "contentVerticalAlign": "Top",
+                        "edgeOffset": "",
                         "buttonGroup": {
                             "orientation": "Horizontal"
                         },
                         "subType": "PanelHeader",
-                        "contentVerticalAlign": "Top",
-                        "edgeOffset": "",
                         "allowScrolling": false,
                         "scrolling": {
                             "axis": "Both",
@@ -329,23 +351,32 @@
                     "precalc": {
                         "javascriptAbstractSetupCode": ""
                     }
-                },
-                "indentTree": 1,
-                "precalc": {
-                    "ControlHTML": "<div \tid=\"{dialog.componentName}.V.R{dialog.rownumber}.PANELHEADER_1\"   \n\t\t\tclass=\"A5CWLayout \"  style=\"background-color: #006ED1; \"  ><!--DIV for Container control-->",
-                    "DesignViewHTML": ""
                 }
             },
             {
                 "controlType": "layout_directive_statictext",
                 "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=a8b768ef_7d51_44f0_b380_e0d9b5587dcb}{I:'$$format.text'} [Static Text: SUCURSALES] �",
-                "displayODFlat": "{Data=a8b768ef_7d51_44f0_b380_e0d9b5587dcb}{I:'$$format.text'} [Static Text]",
-                "idInternal": "a8b768ef_7d51_44f0_b380_e0d9b5587dcb",
+                "displayODFlat": "{Data=e23dfb7a-23b9-44cd-b2b8-d51887feb8ff}{I:'$$format.text'}[Static Text]",
+                "idInternal": "e23dfb7a-23b9-44cd-b2b8-d51887feb8ff",
                 "parentContainer": 2,
                 "displayOD": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=a8b768ef_7d51_44f0_b380_e0d9b5587dcb}{I:'$$format.text'} [Static Text]",
                 "repeatingSectionParentId": -1,
                 "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=a8b768ef_7d51_44f0_b380_e0d9b5587dcb}{I:'$$format.text'} [Static Text: SUCURSALES] �",
-                "crc": "4294926096",
+                "crc": "4294904003",
+                "indentTree": 2,
+                "precalc": {
+                    "ControlHTML": "<div class=\"\" style=\"width: \" >\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_1\" title=\"\"  class=\"\" style=\"box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   ><h4 class=\"text-color-white text-align-center no-margin\">SUCURSALES</h4></div>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "inPanelCard": true,
+                "inTreeControl": false,
+                "shortControlType": "STATICTEXT",
+                "p": {
+                    "control": "[Static Text]",
+                    "controltype": "layout_directive_statictext",
+                    "icon": "$$format.text",
+                    "lastbutton": "OK"
+                },
                 "v": {
                     "StaticText": "<h4 class=\"text-color-white text-align-center no-margin\">SUCURSALES</h4>",
                     "Class": "<Default>",
@@ -361,63 +392,75 @@
                     "precalc": {
                         "javascriptAbstractSetupCode": ""
                     }
-                },
-                "indentTree": 2,
-                "precalc": {
-                    "ControlHTML": "<div class=\"\" style=\"width: \" >\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_1\" title=\"\"  class=\"\" style=\"box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   ><h4 class=\"text-color-white text-align-center no-margin\">SUCURSALES</h4></div>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
-                    "DesignViewHTML": ""
-                },
-                "inPanelCard": true,
-                "inTreeControl": false
+                }
             },
             {
                 "controlType": "layout_directive_ContainerEnd",
-                "display": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertLine'}{Data=2b5afa48_3a40_4783_987b_2a24b3bb0c3b}{I:'vertLineCap'} [PanelHeader End: PANELHEADER_1]",
-                "displayODFlat": "{Data=2b5afa48_3a40_4783_987b_2a24b3bb0c3b}{I:'$$format.border.style.dash'} [Container End]",
-                "idInternal": "2b5afa48_3a40_4783_987b_2a24b3bb0c3b",
+                "display": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertLine'}{Data=5a4fea6b-4b9f-42de-b8ab-34953d26f0d9}{I:'vertLineCap'} [PanelHeader End: PANELHEADER_1]",
+                "displayODFlat": "{Data=5a4fea6b-4b9f-42de-b8ab-34953d26f0d9}{I:'$$format.border.style.dash'}[Container End]",
+                "idInternal": "5a4fea6b-4b9f-42de-b8ab-34953d26f0d9",
                 "parentContainer": 1,
                 "displayOD": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=2b5afa48_3a40_4783_987b_2a24b3bb0c3b}{I:'vertLineCap'} [Container End]",
                 "repeatingSectionParentId": -1,
-                "displayODtree": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertLine'}{Data=2b5afa48_3a40_4783_987b_2a24b3bb0c3b}{I:'vertLineCap'} [PanelHeader End: PANELHEADER_1]",
-                "crc": "4294921902",
+                "displayODtree": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertLine'}{Data=5a4fea6b-4b9f-42de-b8ab-34953d26f0d9}{I:'vertLineCap'} [PanelHeader End: PANELHEADER_1]",
+                "crc": "4294958730",
+                "indentTree": 1,
+                "precalc": {
+                    "ControlHTML": "<div style=\"font: 0pt arial;clear:both;\"></div>\n\t</div>\n",
+                    "DesignViewHTML": ""
+                },
+                "containerStartIndex": 2,
+                "shortControlType": "CONTAINEREND",
+                "p": {
+                    "control": "[Container End]",
+                    "controltype": "layout_directive_ContainerEnd",
+                    "icon": "$$format.border.style.dash",
+                    "lastbutton": "OK"
+                },
                 "v": {
                     "container": {
                         "BreakType": "None",
                         "BreakHeight": ".1in",
                         "breakHorizontalSpace": ".1in"
                     }
-                },
-                "indentTree": 1,
-                "precalc": {
-                    "ControlHTML": "<div style=\"font: 0pt arial;clear:both;\"></div>\n\t</div>\n",
-                    "DesignViewHTML": ""
-                },
-                "containerStartIndex": 2
+                }
             },
             {
                 "controlType": "layout_directive_ContainerBegin",
-                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=fe01b3b9-8d87-4f38-940c-ffc1a6b30939}{I:'$$format.border.style.dash'} [Container: CONTAINER_1]",
-                "displayODFlat": "{Data=fe01b3b9-8d87-4f38-940c-ffc1a6b30939}{I:'$$format.border.style.dash'} [Container: CONTAINER_1]",
-                "idInternal": "fe01b3b9-8d87-4f38-940c-ffc1a6b30939",
+                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=9023ab74-9a94-4169-bac3-688bce72ea37}{I:'$$format.border.style.dash'} [Container: CONTAINER_1]",
+                "displayODFlat": "{Data=9023ab74-9a94-4169-bac3-688bce72ea37}{I:'$$format.border.style.dash'}[Container Begin]",
+                "idInternal": "9023ab74-9a94-4169-bac3-688bce72ea37",
                 "lastIndex": 7,
                 "parentContainer": 1,
                 "displayOD": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=fe01b3b9-8d87-4f38-940c-ffc1a6b30939}{I:'$$format.border.style.dash'} [Container: CONTAINER_1]",
                 "repeatingSectionParentId": -1,
-                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=fe01b3b9-8d87-4f38-940c-ffc1a6b30939}{I:'$$format.border.style.dash'} [Container: CONTAINER_1]",
-                "crc": "4294920536",
+                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=9023ab74-9a94-4169-bac3-688bce72ea37}{I:'$$format.border.style.dash'} [Container: CONTAINER_1]",
+                "crc": "4294933945",
+                "indentTree": 1,
+                "precalc": {
+                    "ControlHTML": "<div \tid=\"{dialog.componentName}.V.R{dialog.rownumber}.CONTAINER_1\"   \n\t\t\tclass=\"\"  style=\"width: 100%; height: 100%; \"  ><!--DIV for Container control-->",
+                    "DesignViewHTML": ""
+                },
+                "shortControlType": "CONTAINERBEGIN",
+                "p": {
+                    "lastbutton": "OK",
+                    "control": "[Container Begin]",
+                    "controltype": "layout_directive_ContainerBegin",
+                    "icon": "$$format.border.style.dash"
+                },
                 "v": {
                     "container": {
                         "ID": "CONTAINER_1",
                         "contentAlignment": "Left",
+                        "contentVerticalAlign": "Top",
                         "width": "100%",
                         "height": "100%",
+                        "edgeOffset": "",
                         "nonFloating": true,
                         "buttonGroup": {
                             "orientation": "Horizontal"
                         },
                         "subType": "None",
-                        "contentVerticalAlign": "Top",
-                        "edgeOffset": "",
                         "allowScrolling": false,
                         "scrolling": {
                             "axis": "Both",
@@ -460,23 +503,21 @@
                     "precalc": {
                         "javascriptAbstractSetupCode": ""
                     }
-                },
-                "indentTree": 1,
-                "precalc": {
-                    "ControlHTML": "<div \tid=\"{dialog.componentName}.V.R{dialog.rownumber}.CONTAINER_1\"   \n\t\t\tclass=\"\"  style=\"width: 100%; height: 100%; \"  ><!--DIV for Container control-->",
-                    "DesignViewHTML": ""
                 }
             },
             {
                 "controlType": "dialog_formcontrol",
                 "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=6362778f-f216-4b03-8437-c637f8a47e1f}{I:'$$generic.map'} [SUCURSALESMAP]",
-                "displayODFlat": "{Data=6362778f-f216-4b03-8437-c637f8a47e1f}{I:'$$generic.map'} [SUCURSALESMAP]",
-                "idInternal": "6362778f-f216-4b03-8437-c637f8a47e1f",
+                "displayODFlat": "{Data=ad8b5ee8-ac9f-4c6d-a25a-d8fa81d36687}{I:'$$generic.map'}[SUCURSALESMAP]",
+                "idInternal": "ad8b5ee8-ac9f-4c6d-a25a-d8fa81d36687",
                 "parentContainer": 5,
                 "displayOD": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=6362778f-f216-4b03-8437-c637f8a47e1f}{I:'$$generic.map'} [SUCURSALESMAP]",
                 "repeatingSectionParentId": -1,
                 "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=6362778f-f216-4b03-8437-c637f8a47e1f}{I:'$$generic.map'} [SUCURSALESMAP]",
-                "crc": "4294932857",
+                "crc": "4294930742",
+                "indentTree": 2,
+                "inPanelCard": true,
+                "inTreeControl": false,
                 "v": {
                     "controlType": "Map",
                     "variableName": "SUCURSALESMAP",
@@ -485,11 +526,7 @@
                     "watermark": {
                         "text": "<FieldLabel>"
                     },
-                    "precalc": {
-                        "javascriptAbstractSetupCode": "",
-                        "javascript_mapSettings": "{dialog.object}._mapSettings['SUCURSALESMAP'] = {theme: '{dialog.style}',ui: {overviewMap: false,draggable: true,zoomOnDblClick: true,panControl: false,scale: false,streetViewControl: false,zoomControl: false,mapTypeControl: false},route: {draggable: false,avoid: {highways: false,tolls: false},travelMode: 'Driving',units: 'Default',optimizeOrder: false,directionsPanel: 'ROUTE_PANEL_ID'},type: 'ROADMAP',onZoomChange: function(data) { },onInitialize: function(data) { ;\n\nif(typeof {dialog.object}._googlePlacesLoaded != 'undefined') { \n\tif(typeof {dialog.object}._googlePlacesLoadedHasRun == 'undefined') {\n\t\t{dialog.object}._googlePlacesLoaded();\n\t\t{dialog.object}._googlePlacesLoadedHasRun = true;\n\t}\n}}}; ",
-                        "javascript_map": "{dialog.object}._controls['SUCURSALESMAP'] = { type: 'map', onInitialize: function() {  var mapObj = {dialog.object}.getControl('SUCURSALESMAP');\nmapObj.setZoom(13);;} ,   settings:  {dialog.object}._mapSettings['SUCURSALESMAP'] }"
-                    },
+                    "textboxSubTheme": "",
                     "textboxAutocorrect": true,
                     "textboxAutoCapitalize": true,
                     "label": "Sucursalesmap",
@@ -509,6 +546,8 @@
                     "clientSideFormat": {
                         "type": "Mask"
                     },
+                    "getFunction": "",
+                    "setFunction": "",
                     "onChange_ValidationOption": "Client-side only",
                     "dataBinding": {
                         "updateable": true,
@@ -522,32 +561,6 @@
                             "backgroundimage": "",
                             "inkunits": 1
                         }
-                    },
-                    "textboxSubTheme": "",
-                    "getFunction": "",
-                    "setFunction": "",
-                    "datePicker": {
-                        "displayTimePicker": false,
-                        "openMethod": "ClickIcon",
-                        "dateFormat": "<Default>",
-                        "iconNumber": 2,
-                        "OKButtonLabel": "OK",
-                        "CancelButtonLabel": "Cancel",
-                        "userMustSelectFromDatePicker": false,
-                        "multiple": {
-                            "allow": false,
-                            "separators": ".."
-                        },
-                        "hasMask": false,
-                        "format": {
-                            "mask": ""
-                        },
-                        "timePickerOptionsDefined": false,
-                        "display": false
-                    },
-                    "displayAsSlider": false,
-                    "flags": {
-                        "clientSideDefinition": false
                     },
                     "map": {
                         "width": "4in",
@@ -596,103 +609,7 @@
                             "languageCode": "<Default>",
                             "apikey": ""
                         }
-                    }
-                },
-                "indentTree": 2,
-                "precalc": {
-                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: 4in\" >\n\t<!--FldS--><div id=\"{grid.componentname}.V.R{grid.rownumber}.SUCURSALESMAP.CONTROL\"  style=\"width: 100%; height: 4in; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; \"></div>\n<!--FldE-->\n</div>",
-                    "DesignViewHTML": "",
-                    "columnInfo": "'SUCURSALESMAP': {info: {controlType: 'Map'}, hiddenVal: false, type: 'control', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }\n"
-                },
-                "inPanelCard": true,
-                "inTreeControl": false
-            },
-            {
-                "controlType": "layout_directive_ContainerEnd",
-                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=4edcfe06-7b7d-44b0-a2df-0378f577c4c8}{I:'vertLineCap'} [Container End: CONTAINER_1] �",
-                "displayODFlat": "{Data=4edcfe06-7b7d-44b0-a2df-0378f577c4c8}{I:'$$format.border.style.dash'} [Container End]",
-                "idInternal": "4edcfe06-7b7d-44b0-a2df-0378f577c4c8",
-                "parentContainer": 1,
-                "displayOD": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=4edcfe06-7b7d-44b0-a2df-0378f577c4c8}{I:'vertLineCap'} [Container End]",
-                "repeatingSectionParentId": -1,
-                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=4edcfe06-7b7d-44b0-a2df-0378f577c4c8}{I:'vertLineCap'} [Container End: CONTAINER_1] �",
-                "v": {
-                    "container": {
-                        "BreakType": "After",
-                        "BreakHeight": ".1in",
-                        "breakHorizontalSpace": ".1in",
-                        "parentIsNonFloating": true
-                    }
-                },
-                "indentTree": 1,
-                "precalc": {
-                    "ControlHTML": "<div style=\"font: 0pt arial;clear:both;\"></div>\n\t</div>\n",
-                    "DesignViewHTML": ""
-                },
-                "containerStartIndex": 5
-            },
-            {
-                "controlType": "dialog_formcontrol",
-                "display": "{C=System-ButtonShadow,White}{B=White,Light Blue}{I:'vertLine'}{Data=18571f6e-b785-45df-ba43-b122a01e17e9}{I:'$$control.browse'} [sucursales]",
-                "displayODFlat": "{Data=18571f6e-b785-45df-ba43-b122a01e17e9}{I:'$$control.browse'} [sucursales]",
-                "idInternal": "18571f6e-b785-45df-ba43-b122a01e17e9",
-                "parentContainer": 1,
-                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{Data=18571f6e-b785-45df-ba43-b122a01e17e9}{I:'$$control.browse'} [sucursales]",
-                "repeatingSectionParentId": -1,
-                "displayODtree": "{C=System-ButtonShadow,White}{B=White,Light Blue}{I:'vertLine'}{Data=18571f6e-b785-45df-ba43-b122a01e17e9}{I:'$$control.browse'} [sucursales]",
-                "crc": "4294930201",
-                "v": {
-                    "controlType": "List",
-                    "variableName": "sucursales",
-                    "type": "Character",
-                    "maxLength": -1,
-                    "watermark": {
-                        "text": "<FieldLabel>"
                     },
-                    "precalc": {
-                        "javascriptAbstractSetupCode": "",
-                        "controlHTMLInPanelCard": "in panel card",
-                        "javascript_listViewData": "{dialog.object}._listViewData['SUCURSALES'] = [[dialog.listViewData.sucursales]]; ",
-                        "javascript_listViewSettings": "{dialog.object}._listViewSettings['SUCURSALES'] = [[dialog.listViewSettings.sucursales]]; ",
-                        "javascript_listview": "{dialog.object}._controls['SUCURSALES'] =  { type: 'list',  data: {dialog.object}._listViewData['SUCURSALES'],  onInitialize: function() { \n\t\tvar pe = $(this.contId).parentElement;\n\t\tif(typeof this.listVariableName != 'undefined') { \n\t\t\tvar _cn = '{dialog.componentName}_' + this.listVariableName.toUpperCase() + '_2';\n\t\t\t$acn(pe,_cn);\n\t\t}\n\t\n},  settings: {dialog.object}._listViewSettings['SUCURSALES'] }"
-                    },
-                    "textboxAutocorrect": true,
-                    "textboxAutoCapitalize": true,
-                    "label": "Sucursales",
-                    "hide": true,
-                    "class": "<Default>",
-                    "breakType": "None",
-                    "breakHeight": ".1in",
-                    "breakHorizontalSpace": ".1in",
-                    "labelClass": "<Default>",
-                    "labelPosition": "None",
-                    "labelWidth": "{Global.LabelWidth}",
-                    "labelAlignment": "Left",
-                    "repeatingSectionColumnHeading": "<FieldLabel>",
-                    "embeddedJavascriptControl": true,
-                    "helpIcon": "images/$$generic.help.png.a5image",
-                    "showHelpIcon": "None",
-                    "helpIconBehavior": "ShowHelpOnClick",
-                    "clientSideFormat": {
-                        "type": "Mask"
-                    },
-                    "onChange_ValidationOption": "Client-side only",
-                    "dataBinding": {
-                        "updateable": true,
-                        "image": {
-                            "type": "JPG",
-                            "noImageFoundImage": "<None>",
-                            "newRecordImage": "<None>"
-                        },
-                        "ink": {
-                            "hasbackgroundimage": false,
-                            "backgroundimage": "",
-                            "inkunits": 1
-                        }
-                    },
-                    "textboxSubTheme": "",
-                    "getFunction": "",
-                    "setFunction": "",
                     "datePicker": {
                         "displayTimePicker": false,
                         "openMethod": "ClickIcon",
@@ -713,8 +630,110 @@
                         "display": false
                     },
                     "displayAsSlider": false,
+                    "precalc": {
+                        "javascript_mapSettings": "{dialog.object}._mapSettings['SUCURSALESMAP'] = {theme: '{dialog.style}',ui: {overviewMap: false,draggable: true,zoomOnDblClick: true,panControl: false,scale: false,streetViewControl: false,zoomControl: false,mapTypeControl: false},route: {draggable: false,avoid: {highways: false,tolls: false},travelMode: 'Driving',units: 'Default',optimizeOrder: false,directionsPanel: 'ROUTE_PANEL_ID'},type: 'ROADMAP',onZoomChange: function(data) { },onInitialize: function(data) { ;\n\nif(typeof {dialog.object}._googlePlacesLoaded != 'undefined') { \n\tif(typeof {dialog.object}._googlePlacesLoadedHasRun == 'undefined') {\n\t\t{dialog.object}._googlePlacesLoaded();\n\t\t{dialog.object}._googlePlacesLoadedHasRun = true;\n\t}\n}}}; ",
+                        "javascript_map": "{dialog.object}._controls['SUCURSALESMAP'] = { type: 'map', onInitialize: function() {  var mapObj = {dialog.object}.getControl('SUCURSALESMAP');\nmapObj.setZoom(13);;} ,   settings:  {dialog.object}._mapSettings['SUCURSALESMAP'] }",
+                        "javascriptAbstractSetupCode": ""
+                    },
                     "flags": {
                         "clientSideDefinition": false
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: 4in\" >\n\t<!--FldS--><div id=\"{grid.componentname}.V.R{grid.rownumber}.SUCURSALESMAP.CONTROL\"  style=\"width: 100%; height: 4in; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; \"></div>\n<!--FldE-->\n</div>",
+                    "DesignViewHTML": "",
+                    "columnInfo": "'SUCURSALESMAP': {info: {controlType: 'Map'}, hiddenVal: false, type: 'control', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }\n"
+                }
+            },
+            {
+                "controlType": "layout_directive_ContainerEnd",
+                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=bc13ba2e-d6f6-4ce6-9b47-64d8dc6ff1f5}{I:'vertLineCap'} [Container End: CONTAINER_1] �",
+                "displayODFlat": "{Data=bc13ba2e-d6f6-4ce6-9b47-64d8dc6ff1f5}{I:'$$format.border.style.dash'}[Container End]",
+                "idInternal": "bc13ba2e-d6f6-4ce6-9b47-64d8dc6ff1f5",
+                "parentContainer": 1,
+                "displayOD": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=4edcfe06-7b7d-44b0-a2df-0378f577c4c8}{I:'vertLineCap'} [Container End]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=bc13ba2e-d6f6-4ce6-9b47-64d8dc6ff1f5}{I:'vertLineCap'} [Container End: CONTAINER_1] �",
+                "crc": "4294932746",
+                "indentTree": 1,
+                "precalc": {
+                    "ControlHTML": "<div style=\"font: 0pt arial;clear:both;\"></div>\n\t</div>\n",
+                    "DesignViewHTML": ""
+                },
+                "containerStartIndex": 5,
+                "shortControlType": "CONTAINEREND",
+                "p": {
+                    "control": "[Container End]",
+                    "controltype": "layout_directive_ContainerEnd",
+                    "icon": "$$format.border.style.dash",
+                    "lastbutton": "OK"
+                },
+                "v": {
+                    "container": {
+                        "BreakType": "After",
+                        "BreakHeight": ".1in",
+                        "breakHorizontalSpace": ".1in",
+                        "parentIsNonFloating": true
+                    }
+                }
+            },
+            {
+                "controlType": "dialog_formcontrol",
+                "display": "{C=System-ButtonShadow,White}{B=White,Light Blue}{I:'vertLine'}{Data=18571f6e-b785-45df-ba43-b122a01e17e9}{I:'$$control.browse'} [sucursales]",
+                "displayODFlat": "{Data=57bd5dfa-5ed7-46d8-b11c-8494c4c7edf6}{I:'$$control.browse'}[sucursales]",
+                "idInternal": "57bd5dfa-5ed7-46d8-b11c-8494c4c7edf6",
+                "parentContainer": 1,
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{Data=18571f6e-b785-45df-ba43-b122a01e17e9}{I:'$$control.browse'} [sucursales]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=System-ButtonShadow,White}{B=White,Light Blue}{I:'vertLine'}{Data=18571f6e-b785-45df-ba43-b122a01e17e9}{I:'$$control.browse'} [sucursales]",
+                "crc": "4294954064",
+                "indentTree": 1,
+                "inPanelCard": true,
+                "inTreeControl": false,
+                "v": {
+                    "controlType": "List",
+                    "variableName": "sucursales",
+                    "type": "Character",
+                    "maxLength": -1,
+                    "watermark": {
+                        "text": "<FieldLabel>"
+                    },
+                    "textboxSubTheme": "",
+                    "textboxAutocorrect": true,
+                    "textboxAutoCapitalize": true,
+                    "label": "Sucursales",
+                    "hide": true,
+                    "class": "<Default>",
+                    "breakType": "None",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "repeatingSectionColumnHeading": "<FieldLabel>",
+                    "embeddedJavascriptControl": true,
+                    "helpIcon": "images/$$generic.help.png.a5image",
+                    "showHelpIcon": "None",
+                    "helpIconBehavior": "ShowHelpOnClick",
+                    "clientSideFormat": {
+                        "type": "Mask"
+                    },
+                    "getFunction": "",
+                    "setFunction": "",
+                    "onChange_ValidationOption": "Client-side only",
+                    "dataBinding": {
+                        "updateable": true,
+                        "image": {
+                            "type": "JPG",
+                            "noImageFoundImage": "<None>",
+                            "newRecordImage": "<None>"
+                        },
+                        "ink": {
+                            "hasbackgroundimage": false,
+                            "backgroundimage": "",
+                            "inkunits": 1
+                        }
                     },
                     "listView": {
                         "class": "<Default>",
@@ -3882,9 +3901,38 @@
                         "previewMode": false,
                         "_templateCSS": "\n",
                         "optimizeJSONSize": true
+                    },
+                    "datePicker": {
+                        "displayTimePicker": false,
+                        "openMethod": "ClickIcon",
+                        "dateFormat": "<Default>",
+                        "iconNumber": 2,
+                        "OKButtonLabel": "OK",
+                        "CancelButtonLabel": "Cancel",
+                        "userMustSelectFromDatePicker": false,
+                        "multiple": {
+                            "allow": false,
+                            "separators": ".."
+                        },
+                        "hasMask": false,
+                        "format": {
+                            "mask": ""
+                        },
+                        "timePickerOptionsDefined": false,
+                        "display": false
+                    },
+                    "displayAsSlider": false,
+                    "precalc": {
+                        "controlHTMLInPanelCard": "in panel card",
+                        "javascript_listViewData": "{dialog.object}._listViewData['SUCURSALES'] = [[dialog.listViewData.sucursales]]; ",
+                        "javascript_listViewSettings": "{dialog.object}._listViewSettings['SUCURSALES'] = [[dialog.listViewSettings.sucursales]]; ",
+                        "javascript_listview": "{dialog.object}._controls['SUCURSALES'] =  { type: 'list',  data: {dialog.object}._listViewData['SUCURSALES'],  onInitialize: function() { \n\t\tvar pe = $(this.contId).parentElement;\n\t\tif(typeof this.listVariableName != 'undefined') { \n\t\t\tvar _cn = '{dialog.componentName}_' + this.listVariableName.toUpperCase() + '_2';\n\t\t\t$acn(pe,_cn);\n\t\t}\n\t\n},  settings: {dialog.object}._listViewSettings['SUCURSALES'] }",
+                        "javascriptAbstractSetupCode": ""
+                    },
+                    "flags": {
+                        "clientSideDefinition": false
                     }
                 },
-                "indentTree": 1,
                 "precalc": {
                     "ControlHTML": "<span><!--JSControlStart--><input type=\"hidden\" id=\"{grid.componentname}.V.R{grid.rownumber}.SUCURSALES\" name=\"V.R{grid.rownumber}.SUCURSALES\" /><!--JSControlEnd-->\n<div  class=\"[theme:listBox.base.className|{dialog.style}List]\"   style=\"padding:0px; \"  >\n\t<div id=\"{grid.componentname}.V.R{grid.rownumber}.SUCURSALES.CONTROL\"  class=\"{grid.componentName}_SUCURSALES\" style=\"overflow: auto; width: 100%; height: 3in; \"></div>\n</div>\n</span>",
                     "DesignViewHTML": "",
@@ -3894,25 +3942,31 @@
                     "listViewHasBeenRendered": false,
                     "js_afterListInitialize": "var listObj = {UXPRERENDEREDALIAS}_DlgObj.getControl('SUCURSALES');\nif(listObj) listObj._state.recordCount = 0;\nif(listObj) listObj._state.recordCountFormatted = '0';\nif(listObj) listObj._state.lastBreakValue = '<None>';\nif(listObj) listObj._state.pageCount = 0;\nif(listObj) listObj._state.pageSize = 20;\nif(listObj) {var ele = $('{UXPRERENDEREDALIAS}.sucursales.RECORDCOUNT'); if(ele) ele.innerHTML = listObj._state.recordCountFormatted;};\nif(listObj) listObj._state.paginated = false;\n\nif(listObj) listObj._state.filter = '';\nif(listObj) listObj._state.having = '';\nif(listObj) listObj._state.order = '';\nif(listObj) listObj._state.filterParameters = '';\nif(listObj) listObj._state.highlight = {  };\nif(listObj) listObj._state.whereClause = '';\nif(listObj) listObj._state.whereParameters = '';\n\t\t\n\t\tvar flagPersist = false;\n\t\tif(typeof listObj._flagPersistDataOK != 'undefined') { \n\t\t\tif(listObj._flagPersistDataOK) { \n\t\t\t\tvar data = listObj._data;\n\t\t\t\tlistObj.persistToStorage({mode:'populate', data: data, submode: 'ListViewData'});\n\t\t\t}\n\t\t}\n\t\t\n\t\t\n;\n{UXPRERENDEREDALIAS}_DlgObj._list_executeEvent('SUCURSALES','afterRenderComplete',{});\n\nif(listObj._refreshStateMessages) listObj._refreshStateMessages();",
                     "list_CapturedFieldValueFromFirstRow": ""
-                },
-                "inPanelCard": true,
-                "inTreeControl": false
+                }
             },
             {
                 "controlType": "layout_directive_PanelCardEnd",
-                "display": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{Data=9550b0af-ccf3-4959-aa46-309b698c077a}{I:'vertLineCap'} [Panel Card End: PANELCARD_1]",
-                "displayODFlat": "{Data=9550b0af-ccf3-4959-aa46-309b698c077a}{I:'vertlinecap'} [Panel Card End]",
-                "idInternal": "9550b0af-ccf3-4959-aa46-309b698c077a",
+                "display": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{Data=c4dbb296-7e05-4560-a819-8e6a410b357f}{I:'vertLineCap'} [Panel Card End: PANELCARD_1]",
+                "displayODFlat": "{Data=c4dbb296-7e05-4560-a819-8e6a410b357f}{I:'vertlinecap'}[Panel Card End]",
+                "idInternal": "c4dbb296-7e05-4560-a819-8e6a410b357f",
                 "parentContainer": -1,
                 "displayOD": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{Data=9550b0af-ccf3-4959-aa46-309b698c077a}{I:'vertlinecap'} [Panel Card End]",
                 "repeatingSectionParentId": -1,
-                "displayODtree": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{Data=9550b0af-ccf3-4959-aa46-309b698c077a}{I:'vertLineCap'} [Panel Card End: PANELCARD_1]",
+                "displayODtree": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{Data=c4dbb296-7e05-4560-a819-8e6a410b357f}{I:'vertLineCap'} [Panel Card End: PANELCARD_1]",
+                "crc": "4294911603",
                 "indentTree": 0,
                 "precalc": {
                     "ControlHTML": "'xbasic\nv._dirty = .f.\n",
                     "DesignViewHTML": ""
                 },
-                "containerStartIndex": 1
+                "containerStartIndex": 1,
+                "shortControlType": "PANELCARDEND",
+                "p": {
+                    "control": "[Panel Card End]",
+                    "controltype": "layout_directive_PanelCardEnd",
+                    "icon": "vertlinecap",
+                    "lastbutton": "OK"
+                }
             }
         ],
         "builderType": "Dialog2",
@@ -3947,11 +4001,11 @@
         "showLineNumbersInControlsList": false,
         "saveFileType": "Formatted JSON",
         "keyboardShortcutsJSON": "",
-        "preRenderWarningMessageShow": true,
+        "preRenderWarningMessageShow": false,
         "autoSetPreRenderOnForAllUX": true,
-        "selected": "18571f6e-b785-45df-ba43-b122a01e17e9\n",
+        "selected": "8da34602-cdc9-47bb-9469-7be65ca9b4fb",
         "designPaneIndex": 1,
-        "masterPaneC": "XbasicFunctions",
+        "masterPaneC": "Overview",
         "serverSideEventIndex": 1,
         "clientSideEventIndex": 1,
         "clientSideEventIndexC": "1",
@@ -3960,8 +4014,6 @@
         "embeddedMode": false,
         "_style_hassubthemeTweaks": false,
         "repeatingSectionsAreDirty": true,
-        "containerSubTypeNew": "",
-        "containerSubTypeOld": "",
         "flagDropdownCascadingChanged": false,
         "toolBox_value": "",
         "addinBuildNumber": "5036",
@@ -3969,7 +4021,7 @@
         "alphaFiveBuildNumber": "12",
         "openedFromTemplate": false,
         "builtWithVersionNumer": 1,
-        "_buildCount": "20",
+        "_buildCount": "21",
         "securityEnabled": false,
         "showHideIsUsed": false,
         "precalc": {
@@ -4099,7 +4151,7 @@
         "sassProcessor": true,
         "debugMode": false,
         "__jsLibraries": "<script type=\"text/javascript\" src=\"javascript/a5.js\"></script>\n<script type=\"text/javascript\" src=\"javascript/a5_url.js\"></script>\n",
-        "A5SaveTimeStamp": "20180221171200213",
+        "A5SaveTimeStamp": "20180222165102453",
         "a_actionJavascript": [
             {
                 "actionGuid": "e6ed674a-791d-4757-a012-4a3840ad5fe4   ",
@@ -4114,7 +4166,7 @@
         "_forceMobileSimulation": false,
         "__flagCreateAppCache": false,
         "_flagDoTreeview": true,
-        "__idinternalCurrentControl": "18571f6e-b785-45df-ba43-b122a01e17e9",
+        "__idinternalCurrentControl": "57bd5dfa-5ed7-46d8-b11c-8494c4c7edf6",
         "__nameCurrentControl": "sucursales",
         "a_UnboundActionJavascript": [
             {
@@ -4140,12 +4192,13 @@
         ],
         "unboundActionShowOnNewActionMessage": true,
         "actionJavascriptUnboundLastEdited": "f8a0fa89-753d-44c1-8c21-abaa89c26c9d",
+        "_flagCreateDialogUsingXbasic": true,
         "prerendered": {
             "_styledataVersion": 3,
             "output": {
                 "Head": {
                     "JavaScript": "<script type=\"text/javascript\" src=\"javascript/a5.js\"></script>\n<script type=\"text/javascript\" src=\"javascript/a5_url.js\"></script>\n<!-LoadExternalLibraries->\n__replaceatRuntime__cssstyletweaks__",
-                    "CSS_Link": "<style type=\"text/css\">\nhtml { -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-user-select: none; -ms-touch-action: none;}\niframe {-webkit-user-select: text;}\n.A5container {float:left;padding:0px;}\n.A5CWLayout {padding: 4px; float: left; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;}\n.A5GridHideErrorCol .A5GridErrorCol {display:none; }\n.A5GridRowErrorIcon {display:none;}\n.A5GridHasRowError .A5GridRowErrorIcon {display:inline-block;}\n.A5GridRowViewMode {display:block;}\n.A5GridRowEditMode {display:none;}\n.A5GridRowInEditMode .A5GridRowViewMode {display:none;}\n.A5GridRowInEditMode .A5GridRowEditMode {display:block;}\n.A5GridRowDirty {display:none;}\n.A5GridRowClean {display:inline;}\n.A5GridRowIsDirty .A5GridRowDirty {display:inline;}\n.A5GridRowIsDirty .A5GridRowClean {display:none;}\n.errorText {color:red;font-size:8pt;}\n.errorTextHighlight {font-weight:bold;font-size:8pt;}\n.errorTip {color:red;background:#fffafa url('images/$box/$size/8x8/$fill/Up%5FDiagonal:White%3A%23255%2C239%2C239.png.a5image');border:1px solid #f88;margin-top:2px;padding:2px;font-size:8pt;}\n.errorInput {color:red;border:1px solid red;margin:1px;}\n.errorInputHighlight {color:red;border:2px solid red;margin:0px;}\n.A5SelectedButton {opacity:.5;filter:alpha(opacity=50);}\n.A5InvisibleLock {background: rgba(0,0,0,0); }\n\n\n\n.A5ContainerAlignCenter {padding: 4px; margin-left:auto;margin-right:auto;text-align: center;}\n.A5ContainerAlignLeft {padding: 4px; margin-right:auto;text-align: left;} \n.A5ContainerAlignRight {padding: 4px; margin-left:auto;text-align: right;}\n\n.A5ContainerAlignCenter > .A5CWLayout, .A5ContainerAlignLeft > .A5CWLayout, .A5ContainerAlignRight > .A5CWLayout, .A5ContainerAlignCenter > .A5container, .A5ContainerAlignLeft > .A5container, .A5ContainerAlignRight > .A5container  {display: inline-block; float: none;}\n\n\n\n\n.A5AccordionTitleOn, .A5AccordionTitleOff, .A5AccordionTitleDisabled {display: block;border: 1px solid #999;padding: 2px;text-decoration: none;cursor: pointer;margin-bottom: 2px; padding: 2px}\n.A5AccordionPane {border: 1px solid #999;border-top: none;margin-bottom: 2px;margin-top: -2px;}\n.A5TabTopOn, .A5TabTopOff, .A5TabTopDisabled {display: block;float: left;border: 1px solid #999;border-bottom: none;margin-right: 2px;padding: 2px;text-decoration: none;cursor: pointer;}\n.A5TabTopOn {margin-bottom: -1px;padding-bottom: 3px;}\n.A5TabBottomOn, .A5TabBottomOff, .A5TabBottomDisabled {display: block;float: left;border: 1px solid #999;margin-right: 2px;padding: 2px;text-decoration: none;cursor: pointer;}\n.A5TabBottomOn {border-top: none;padding-top: 3px;}\n.A5TabLeftOn, .A5TabLeftOff, .A5TabLeftDisabled {display: block;border: 1px solid #999;margin-bottom: 2px;padding: 2px;text-decoration: none;cursor: pointer;}\n.A5TabLeftOn {margin-right: -1px;padding-right: 3px;border-right: none;}\n.A5TabRightOn, .A5TabRightOff, .A5TabRightDisabled {display: block;border: 1px solid #999;border-left: none;margin-bottom: 2px;padding: 2px;text-decoration: none;cursor: pointer;}\n.A5TabRightOn {margin-left: -1px;padding-left: 3px;}\n.A5TabTopPane, .A5TabBottomPane, .A5TabLeftPane, .A5TabRightPane {border: 1px solid #999; padding: 2px;}\n\n\n.A5TabBand {border: 1px solid #999; padding: 0px;}\n.A5TabBandTabOn, .A5TabBandTabOff, .A5TabBandTabDisabled {position: relative;display: block;border: 1px solid #999;border-bottom: none;margin-right: 2px;margin-top: 2px;padding: 2px;text-decoration: none;cursor: pointer;white-space: nowrap;}\n.A5TabBandTabOn {margin-bottom: -1px;padding-bottom: 3px;}\n.A5TabBandSeparator {border: none;border-top: 1px solid #999;height: 3px;padding: 0px;font: 0pt arial;}\n.A5TabBandLeftScroll {position: relative;display: block;padding: 2px;margin-bottom: -1px;padding-bottom: 3px;text-decoration: none;border: 1px solid #999;border-left: none;border-bottom: none;}\n.A5TabBandRightScroll {position: relative;display: block;padding: 2px;margin-bottom: -1px;padding-bottom: 3px;text-decoration: none;border: 1px solid #999;border-right: none;border-bottom: none;}\n.A5TabBandTabDisabled, .A5TabTopDisabled, .A5TabLeftDisabled, .A5TabRightDisabled, .A5TabBottomDisabled, .A5AccordionTitleDisabled {opacity: .5; filter: alpha(opacity: 50)}\n.A5Window {-moz-border-radius: 3px; -webkit-border-radius: 3px;}\n.A5WindowLock{border: 1px solid #000;background: #222;opacity: .25;filter: alpha(opacity: 25);}\n\n.A5AccordionTitleOn:hover, .A5AccordionTitleOff:hover, .A5TabBandTabOff:hover, .A5TabTopOff:hover, .A5TabLeftOff:hover, .A5TabRightOff:hover, .A5TabBottomOff:hover{text-decoration: underline;}\n\n.A5MenuItem {text-decoration:none;}\n.A5DialogRSSeparator {border-top: 1px dotted #ccc; line-height:5px; margin-top: 5px;}\n.A5DialogRSFooter {margin-top: 10px;}\n\n\n\n\n\n</style>\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"css/iOS7/style.css?20\">\n<script type=\"text/javascript\" src=\"css/iOS7/style.js?20\"></script>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"css/_sharedStyles/style.css?20\">\n\n<style type=\"text/css\">\n.{UXPRERENDEREDALIAS}_SUCURSALES_2{\n}\n</style>\n<style>\n</style>\n",
+                    "CSS_Link": "<style type=\"text/css\">\nhtml { -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-user-select: none; -ms-touch-action: none;}\niframe {-webkit-user-select: text;}\n.A5container {float:left;padding:0px;}\n.A5CWLayout {padding: 4px; float: left; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;}\n.A5GridHideErrorCol .A5GridErrorCol {display:none; }\n.A5GridRowErrorIcon {display:none;}\n.A5GridHasRowError .A5GridRowErrorIcon {display:inline-block;}\n.A5GridRowViewMode {display:block;}\n.A5GridRowEditMode {display:none;}\n.A5GridRowInEditMode .A5GridRowViewMode {display:none;}\n.A5GridRowInEditMode .A5GridRowEditMode {display:block;}\n.A5GridRowDirty {display:none;}\n.A5GridRowClean {display:inline;}\n.A5GridRowIsDirty .A5GridRowDirty {display:inline;}\n.A5GridRowIsDirty .A5GridRowClean {display:none;}\n.errorText {color:red;font-size:8pt;}\n.errorTextHighlight {font-weight:bold;font-size:8pt;}\n.errorTip {color:red;background:#fffafa url('images/$box/$size/8x8/$fill/Up%5FDiagonal:White%3A%23255%2C239%2C239.png.a5image');border:1px solid #f88;margin-top:2px;padding:2px;font-size:8pt;}\n.errorInput {color:red;border:1px solid red;margin:1px;}\n.errorInputHighlight {color:red;border:2px solid red;margin:0px;}\n.A5SelectedButton {opacity:.5;filter:alpha(opacity=50);}\n.A5InvisibleLock {background: rgba(0,0,0,0); }\n\n\n\n.A5ContainerAlignCenter {padding: 4px; margin-left:auto;margin-right:auto;text-align: center;}\n.A5ContainerAlignLeft {padding: 4px; margin-right:auto;text-align: left;} \n.A5ContainerAlignRight {padding: 4px; margin-left:auto;text-align: right;}\n\n.A5ContainerAlignCenter > .A5CWLayout, .A5ContainerAlignLeft > .A5CWLayout, .A5ContainerAlignRight > .A5CWLayout, .A5ContainerAlignCenter > .A5container, .A5ContainerAlignLeft > .A5container, .A5ContainerAlignRight > .A5container  {display: inline-block; float: none;}\n\n\n\n\n.A5AccordionTitleOn, .A5AccordionTitleOff, .A5AccordionTitleDisabled {display: block;border: 1px solid #999;padding: 2px;text-decoration: none;cursor: pointer;margin-bottom: 2px; padding: 2px}\n.A5AccordionPane {border: 1px solid #999;border-top: none;margin-bottom: 2px;margin-top: -2px;}\n.A5TabTopOn, .A5TabTopOff, .A5TabTopDisabled {display: block;float: left;border: 1px solid #999;border-bottom: none;margin-right: 2px;padding: 2px;text-decoration: none;cursor: pointer;}\n.A5TabTopOn {margin-bottom: -1px;padding-bottom: 3px;}\n.A5TabBottomOn, .A5TabBottomOff, .A5TabBottomDisabled {display: block;float: left;border: 1px solid #999;margin-right: 2px;padding: 2px;text-decoration: none;cursor: pointer;}\n.A5TabBottomOn {border-top: none;padding-top: 3px;}\n.A5TabLeftOn, .A5TabLeftOff, .A5TabLeftDisabled {display: block;border: 1px solid #999;margin-bottom: 2px;padding: 2px;text-decoration: none;cursor: pointer;}\n.A5TabLeftOn {margin-right: -1px;padding-right: 3px;border-right: none;}\n.A5TabRightOn, .A5TabRightOff, .A5TabRightDisabled {display: block;border: 1px solid #999;border-left: none;margin-bottom: 2px;padding: 2px;text-decoration: none;cursor: pointer;}\n.A5TabRightOn {margin-left: -1px;padding-left: 3px;}\n.A5TabTopPane, .A5TabBottomPane, .A5TabLeftPane, .A5TabRightPane {border: 1px solid #999; padding: 2px;}\n\n\n.A5TabBand {border: 1px solid #999; padding: 0px;}\n.A5TabBandTabOn, .A5TabBandTabOff, .A5TabBandTabDisabled {position: relative;display: block;border: 1px solid #999;border-bottom: none;margin-right: 2px;margin-top: 2px;padding: 2px;text-decoration: none;cursor: pointer;white-space: nowrap;}\n.A5TabBandTabOn {margin-bottom: -1px;padding-bottom: 3px;}\n.A5TabBandSeparator {border: none;border-top: 1px solid #999;height: 3px;padding: 0px;font: 0pt arial;}\n.A5TabBandLeftScroll {position: relative;display: block;padding: 2px;margin-bottom: -1px;padding-bottom: 3px;text-decoration: none;border: 1px solid #999;border-left: none;border-bottom: none;}\n.A5TabBandRightScroll {position: relative;display: block;padding: 2px;margin-bottom: -1px;padding-bottom: 3px;text-decoration: none;border: 1px solid #999;border-right: none;border-bottom: none;}\n.A5TabBandTabDisabled, .A5TabTopDisabled, .A5TabLeftDisabled, .A5TabRightDisabled, .A5TabBottomDisabled, .A5AccordionTitleDisabled {opacity: .5; filter: alpha(opacity: 50)}\n.A5Window {-moz-border-radius: 3px; -webkit-border-radius: 3px;}\n.A5WindowLock{border: 1px solid #000;background: #222;opacity: .25;filter: alpha(opacity: 25);}\n\n.A5AccordionTitleOn:hover, .A5AccordionTitleOff:hover, .A5TabBandTabOff:hover, .A5TabTopOff:hover, .A5TabLeftOff:hover, .A5TabRightOff:hover, .A5TabBottomOff:hover{text-decoration: underline;}\n\n.A5MenuItem {text-decoration:none;}\n.A5DialogRSSeparator {border-top: 1px dotted #ccc; line-height:5px; margin-top: 5px;}\n.A5DialogRSFooter {margin-top: 10px;}\n\n\n\n\n\n</style>\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"css/iOS7/style.css?21\">\n<script type=\"text/javascript\" src=\"css/iOS7/style.js?21\"></script>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"css/_sharedStyles/style.css?21\">\n\n<style type=\"text/css\">\n.{UXPRERENDEREDALIAS}_SUCURSALES_2{\n}\n</style>\n<style>\n</style>\n",
                     "title": "<title>UX</title>"
                 },
                 "body": {

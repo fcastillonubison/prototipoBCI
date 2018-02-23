@@ -166,7 +166,7 @@
         "info": {
             "createdBy": "Desarrollador",
             "dateCreated": "2018-2-19",
-            "dateLastEdited": "2018-2-21"
+            "dateLastEdited": "2018-2-22"
         },
         "flagShowCommentsInTree": true,
         "treeCommentOffset": "6",
@@ -203,15 +203,33 @@
         "page_fields": [
             {
                 "controlType": "layout_directive_PanelCardBegin",
-                "display": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{Data=d1adbffd-0039-4f97-82fc-0d0468053203}{I:'$$web.panel.card'} [Panel Card: PANELCARD_1]  (H)",
-                "displayODFlat": "{Data=d1adbffd-0039-4f97-82fc-0d0468053203}{I:'$$web.panel.card'} [Panel Card: PANELCARD_1]",
-                "idInternal": "d1adbffd-0039-4f97-82fc-0d0468053203",
+                "display": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{Data=c0fa32be-c99f-4887-afab-11a7afec31bc}{I:'$$web.panel.card'} [Panel Card: PANELCARD_1]  (H)",
+                "displayODFlat": "{Data=c0fa32be-c99f-4887-afab-11a7afec31bc}{I:'$$web.panel.card'}[Panel Card Begin]",
+                "idInternal": "c0fa32be-c99f-4887-afab-11a7afec31bc",
                 "lastIndex": 9,
                 "parentContainer": -1,
                 "displayOD": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{Data=d1adbffd-0039-4f97-82fc-0d0468053203}{I:'$$web.panel.card'} [Panel Card: PANELCARD_1]",
                 "repeatingSectionParentId": -1,
-                "displayODtree": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{Data=d1adbffd-0039-4f97-82fc-0d0468053203}{I:'$$web.panel.card'} [Panel Card: PANELCARD_1]  (H)",
-                "crc": "4294944918",
+                "displayODtree": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{Data=c0fa32be-c99f-4887-afab-11a7afec31bc}{I:'$$web.panel.card'} [Panel Card: PANELCARD_1]  (H)",
+                "crc": "4294933406",
+                "indentTree": 0,
+                "precalc": {
+                    "ControlHTML": "'xbasic\n\nv._dirty = .f.\n\n\n",
+                    "DesignViewHTML": "",
+                    "javascript": {
+                        "panel": "new A5.PanelCard({\n\ttheme: '{dialog.style}',\n\tbody: {\n\t\tcontent: {\n\t\t\ttype: 'html',\n\t\t\tsrc: '<div \\tid=\"{dialog.componentName}.V.R{dialog.rownumber}.CONTAINER_1\"   \\n\\t\\t\\tclass=\"A5CWLayout \"  style=\"width: 100%; height: 100%; \"  ><!--DIV for Container control-->\\n<div class=\"A5CWLayout\" style=\"width: 4in\" >\\n\\t<!--FldS--><div id=\"{grid.componentname}.V.R{grid.rownumber}.MAPCAJEROS.CONTROL\"  style=\"width: 100%; height: 4in; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; \"></div>\\n<!--FldE-->\\n</div>\\n<div style=\"font: 0pt arial;clear:both;\"></div>\\n\\t</div>\\n<!--breakbegin--><br  id=\"{dialog.componentname}.V.R1.CONTAINER_1.BREAK\"  style=\"clear:both; \" /><!--breakend-->\\n<div style=\"display:none;\"><span><!--JSControlStart--><input type=\"hidden\" id=\"{grid.componentname}.V.R{grid.rownumber}.CAJEROS\" name=\"V.R{grid.rownumber}.CAJEROS\" /><!--JSControlEnd-->\\n<div  class=\"[theme:listBox.base.className|{dialog.style}List]\"   style=\"padding:0px; \"  >\\n\\t<div id=\"{grid.componentname}.V.R{grid.rownumber}.CAJEROS.CONTROL\"  class=\"{grid.componentName}_CAJEROS\" style=\"overflow: auto; width: 100%; height: 3in; \"></div>\\n</div>\\n</span>\\n</div><div style=\"clear: both; font: 0px arial; height: 0px; width: 0px;\"></div>'\n\t\t},\n\t\tscroll: false\n\t},\n\theader: {\n\t\thtml: '<div class=\"\" style=\"width: \" > \\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_1\" title=\"\"  class=\"\" style=\"box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   ><h4 class=\"text-color-white text-align-center no-margin\">CAJEROS</h4></div> </div> <div style=\"display:none;\"><!--A5HiddenFields--></div>',\n\t\tshow: true,\n\t\tstyle: 'background-color:#006ED1;'\n\t},\n\tfooter: {\n\t},\n\toverlay: {\n\t},\n\tonSize: function() {;if(typeof {dialog.object} != 'undefined') {\n\tif(typeof {dialog.object}._findActiveLayoutRule != 'undefined') { \n\t\t{dialog.object}._findActiveLayoutRule();\n\t\t\n\t}\n}\n\nif(typeof {dialog.object} != 'undefined') {var mObj = {dialog.object}.getControl('MAPCAJEROS'); if(mObj) mObj.refresh();}\nif(typeof {dialog.object} != 'undefined') {var mObj = {dialog.object}.getControl('CAJEROS'); if(mObj) mObj.refresh();}\nif(typeof {dialog.object} != 'undefined' && typeof {dialog.object}._panelCardResize != 'undefined') { {dialog.object}._panelCardResize('PANELCARD_1'); };}\n})"
+                    }
+                },
+                "shortControlType": "PANELCARDBEGIN",
+                "p": {
+                    "lastbutton": "OK",
+                    "control": "[Panel Card Begin]",
+                    "controltype": "layout_directive_PanelCardBegin",
+                    "icon": "$$web.panel.card",
+                    "insertBeginTag": true,
+                    "insertClosingTag": false,
+                    "position": "Around"
+                },
                 "v": {
                     "container": {
                         "id": "PANELCARD_1"
@@ -255,38 +273,42 @@
                         },
                         "type": "Default"
                     }
-                },
-                "indentTree": 0,
-                "precalc": {
-                    "ControlHTML": "'xbasic\n\nv._dirty = .f.\n\n\n",
-                    "DesignViewHTML": "",
-                    "javascript": {
-                        "panel": "new A5.PanelCard({\n\ttheme: '{dialog.style}',\n\tbody: {\n\t\tcontent: {\n\t\t\ttype: 'html',\n\t\t\tsrc: '<div \\tid=\"{dialog.componentName}.V.R{dialog.rownumber}.CONTAINER_1\"   \\n\\t\\t\\tclass=\"A5CWLayout \"  style=\"width: 100%; height: 100%; \"  ><!--DIV for Container control-->\\n<div class=\"A5CWLayout\" style=\"width: 4in\" >\\n\\t<!--FldS--><div id=\"{grid.componentname}.V.R{grid.rownumber}.MAPCAJEROS.CONTROL\"  style=\"width: 100%; height: 4in; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; \"></div>\\n<!--FldE-->\\n</div>\\n<div style=\"font: 0pt arial;clear:both;\"></div>\\n\\t</div>\\n<!--breakbegin--><br  id=\"{dialog.componentname}.V.R1.CONTAINER_1.BREAK\"  style=\"clear:both; \" /><!--breakend-->\\n<div style=\"display:none;\"><span><!--JSControlStart--><input type=\"hidden\" id=\"{grid.componentname}.V.R{grid.rownumber}.CAJEROS\" name=\"V.R{grid.rownumber}.CAJEROS\" /><!--JSControlEnd-->\\n<div  class=\"[theme:listBox.base.className|{dialog.style}List]\"   style=\"padding:0px; \"  >\\n\\t<div id=\"{grid.componentname}.V.R{grid.rownumber}.CAJEROS.CONTROL\"  class=\"{grid.componentName}_CAJEROS\" style=\"overflow: auto; width: 100%; height: 3in; \"></div>\\n</div>\\n</span>\\n</div><div style=\"clear: both; font: 0px arial; height: 0px; width: 0px;\"></div>'\n\t\t},\n\t\tscroll: false\n\t},\n\theader: {\n\t\thtml: '<div class=\"\" style=\"width: \" > \\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_1\" title=\"\"  class=\"\" style=\"box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   ><h4 class=\"text-color-white text-align-center no-margin\">CAJEROS</h4></div> </div> <div style=\"display:none;\"><!--A5HiddenFields--></div>',\n\t\tshow: true,\n\t\tstyle: 'background-color:#006ED1;'\n\t},\n\tfooter: {\n\t},\n\toverlay: {\n\t},\n\tonSize: function() {;if(typeof {dialog.object} != 'undefined') {\n\tif(typeof {dialog.object}._findActiveLayoutRule != 'undefined') { \n\t\t{dialog.object}._findActiveLayoutRule();\n\t\t\n\t}\n}\n\nif(typeof {dialog.object} != 'undefined') {var mObj = {dialog.object}.getControl('MAPCAJEROS'); if(mObj) mObj.refresh();}\nif(typeof {dialog.object} != 'undefined') {var mObj = {dialog.object}.getControl('CAJEROS'); if(mObj) mObj.refresh();}\nif(typeof {dialog.object} != 'undefined' && typeof {dialog.object}._panelCardResize != 'undefined') { {dialog.object}._panelCardResize('PANELCARD_1'); };}\n})"
-                    }
                 }
             },
             {
                 "controlType": "layout_directive_ContainerBegin",
-                "display": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertLine'}{Data=2d5a4fab_646b_4838_8c9b_13df39c761f6}{I:'$$web.panel.header'} [PanelHeader: PANELHEADER_1]",
-                "displayODFlat": "{Data=2d5a4fab_646b_4838_8c9b_13df39c761f6}{I:'$$format.border.style.dash'} [Container: PANELHEADER_1]",
-                "idInternal": "2d5a4fab_646b_4838_8c9b_13df39c761f6",
+                "display": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertLine'}{Data=651fc628-a237-4cdc-a2d8-e26c1e87ed15}{I:'$$web.panel.header'} [PanelHeader: PANELHEADER_1]",
+                "displayODFlat": "{Data=651fc628-a237-4cdc-a2d8-e26c1e87ed15}{I:'$$format.border.style.dash'}[Container Begin]",
+                "idInternal": "651fc628-a237-4cdc-a2d8-e26c1e87ed15",
                 "lastIndex": 4,
                 "parentContainer": 1,
                 "displayOD": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=2d5a4fab_646b_4838_8c9b_13df39c761f6}{I:'$$format.border.style.dash'} [Container: PANELHEADER_1]",
                 "repeatingSectionParentId": -1,
-                "displayODtree": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertLine'}{Data=2d5a4fab_646b_4838_8c9b_13df39c761f6}{I:'$$web.panel.header'} [PanelHeader: PANELHEADER_1]",
-                "crc": "4294952711",
+                "displayODtree": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertLine'}{Data=651fc628-a237-4cdc-a2d8-e26c1e87ed15}{I:'$$web.panel.header'} [PanelHeader: PANELHEADER_1]",
+                "crc": "4294918426",
+                "indentTree": 1,
+                "precalc": {
+                    "ControlHTML": "<div \tid=\"{dialog.componentName}.V.R{dialog.rownumber}.PANELHEADER_1\"   \n\t\t\tclass=\"A5CWLayout \"  style=\"background-color: #006ED1; \"  ><!--DIV for Container control-->",
+                    "DesignViewHTML": ""
+                },
+                "shortControlType": "CONTAINERBEGIN",
+                "p": {
+                    "lastbutton": "OK",
+                    "control": "[Container Begin]",
+                    "controltype": "layout_directive_ContainerBegin",
+                    "icon": "$$format.border.style.dash"
+                },
                 "v": {
                     "container": {
                         "ID": "PANELHEADER_1",
                         "style": "background-color:#006ED1;",
                         "contentAlignment": "Left",
+                        "contentVerticalAlign": "Top",
+                        "edgeOffset": "",
                         "buttonGroup": {
                             "orientation": "Horizontal"
                         },
                         "subType": "PanelHeader",
-                        "contentVerticalAlign": "Top",
-                        "edgeOffset": "",
                         "allowScrolling": false,
                         "scrolling": {
                             "axis": "Both",
@@ -329,23 +351,32 @@
                     "precalc": {
                         "javascriptAbstractSetupCode": ""
                     }
-                },
-                "indentTree": 1,
-                "precalc": {
-                    "ControlHTML": "<div \tid=\"{dialog.componentName}.V.R{dialog.rownumber}.PANELHEADER_1\"   \n\t\t\tclass=\"A5CWLayout \"  style=\"background-color: #006ED1; \"  ><!--DIV for Container control-->",
-                    "DesignViewHTML": ""
                 }
             },
             {
                 "controlType": "layout_directive_statictext",
                 "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=5e022fd3_fd6c_4b47_aad4_09e748f12f04}{I:'$$format.text'} [Static Text: CAJEROS] �",
-                "displayODFlat": "{Data=5e022fd3_fd6c_4b47_aad4_09e748f12f04}{I:'$$format.text'} [Static Text]",
-                "idInternal": "5e022fd3_fd6c_4b47_aad4_09e748f12f04",
+                "displayODFlat": "{Data=a288d964-79d2-45ba-ad06-bc2479b7b96d}{I:'$$format.text'}[Static Text]",
+                "idInternal": "a288d964-79d2-45ba-ad06-bc2479b7b96d",
                 "parentContainer": 2,
                 "displayOD": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=5e022fd3_fd6c_4b47_aad4_09e748f12f04}{I:'$$format.text'} [Static Text]",
                 "repeatingSectionParentId": -1,
                 "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=5e022fd3_fd6c_4b47_aad4_09e748f12f04}{I:'$$format.text'} [Static Text: CAJEROS] �",
-                "crc": "4294912311",
+                "crc": "4294927169",
+                "indentTree": 2,
+                "precalc": {
+                    "ControlHTML": "<div class=\"\" style=\"width: \" >\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_1\" title=\"\"  class=\"\" style=\"box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   ><h4 class=\"text-color-white text-align-center no-margin\">CAJEROS</h4></div>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "inPanelCard": true,
+                "inTreeControl": false,
+                "shortControlType": "STATICTEXT",
+                "p": {
+                    "control": "[Static Text]",
+                    "controltype": "layout_directive_statictext",
+                    "icon": "$$format.text",
+                    "lastbutton": "OK"
+                },
                 "v": {
                     "StaticText": "<h4 class=\"text-color-white text-align-center no-margin\">CAJEROS</h4>",
                     "Class": "<Default>",
@@ -361,62 +392,74 @@
                     "precalc": {
                         "javascriptAbstractSetupCode": ""
                     }
-                },
-                "indentTree": 2,
-                "precalc": {
-                    "ControlHTML": "<div class=\"\" style=\"width: \" >\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_1\" title=\"\"  class=\"\" style=\"box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   ><h4 class=\"text-color-white text-align-center no-margin\">CAJEROS</h4></div>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
-                    "DesignViewHTML": ""
-                },
-                "inPanelCard": true,
-                "inTreeControl": false
+                }
             },
             {
                 "controlType": "layout_directive_ContainerEnd",
-                "display": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertLine'}{Data=34eb5ed9_d533_4750_9d71_15c492d561b1}{I:'vertLineCap'} [PanelHeader End: PANELHEADER_1]",
-                "displayODFlat": "{Data=34eb5ed9_d533_4750_9d71_15c492d561b1}{I:'$$format.border.style.dash'} [Container End]",
-                "idInternal": "34eb5ed9_d533_4750_9d71_15c492d561b1",
+                "display": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertLine'}{Data=181af9dd-cc6f-410f-9867-5bfef17f5d16}{I:'vertLineCap'} [PanelHeader End: PANELHEADER_1]",
+                "displayODFlat": "{Data=181af9dd-cc6f-410f-9867-5bfef17f5d16}{I:'$$format.border.style.dash'}[Container End]",
+                "idInternal": "181af9dd-cc6f-410f-9867-5bfef17f5d16",
                 "parentContainer": 1,
                 "displayOD": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=34eb5ed9_d533_4750_9d71_15c492d561b1}{I:'vertLineCap'} [Container End]",
                 "repeatingSectionParentId": -1,
-                "displayODtree": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertLine'}{Data=34eb5ed9_d533_4750_9d71_15c492d561b1}{I:'vertLineCap'} [PanelHeader End: PANELHEADER_1]",
-                "crc": "4294943482",
+                "displayODtree": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertLine'}{Data=181af9dd-cc6f-410f-9867-5bfef17f5d16}{I:'vertLineCap'} [PanelHeader End: PANELHEADER_1]",
+                "crc": "4294929475",
+                "indentTree": 1,
+                "precalc": {
+                    "ControlHTML": "<div style=\"font: 0pt arial;clear:both;\"></div>\n\t</div>\n",
+                    "DesignViewHTML": ""
+                },
+                "containerStartIndex": 2,
+                "shortControlType": "CONTAINEREND",
+                "p": {
+                    "control": "[Container End]",
+                    "controltype": "layout_directive_ContainerEnd",
+                    "icon": "$$format.border.style.dash",
+                    "lastbutton": "OK"
+                },
                 "v": {
                     "container": {
                         "BreakType": "None",
                         "BreakHeight": ".1in",
                         "breakHorizontalSpace": ".1in"
                     }
-                },
-                "indentTree": 1,
-                "precalc": {
-                    "ControlHTML": "<div style=\"font: 0pt arial;clear:both;\"></div>\n\t</div>\n",
-                    "DesignViewHTML": ""
-                },
-                "containerStartIndex": 2
+                }
             },
             {
                 "controlType": "layout_directive_ContainerBegin",
-                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=6b50dd88-3720-475e-89d0-037c9b304ceb}{I:'$$format.border.style.dash'} [Container: CONTAINER_1]",
-                "displayODFlat": "{Data=6b50dd88-3720-475e-89d0-037c9b304ceb}{I:'$$format.border.style.dash'} [Container: CONTAINER_1]",
-                "idInternal": "6b50dd88-3720-475e-89d0-037c9b304ceb",
+                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=a2712a8a-712e-4bf7-bc02-82e6a4ed62f8}{I:'$$format.border.style.dash'} [Container: CONTAINER_1]",
+                "displayODFlat": "{Data=a2712a8a-712e-4bf7-bc02-82e6a4ed62f8}{I:'$$format.border.style.dash'}[Container Begin]",
+                "idInternal": "a2712a8a-712e-4bf7-bc02-82e6a4ed62f8",
                 "lastIndex": 7,
                 "parentContainer": 1,
                 "displayOD": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=6b50dd88-3720-475e-89d0-037c9b304ceb}{I:'$$format.border.style.dash'} [Container: CONTAINER_1]",
                 "repeatingSectionParentId": -1,
-                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=6b50dd88-3720-475e-89d0-037c9b304ceb}{I:'$$format.border.style.dash'} [Container: CONTAINER_1]",
-                "crc": "4294926642",
+                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=a2712a8a-712e-4bf7-bc02-82e6a4ed62f8}{I:'$$format.border.style.dash'} [Container: CONTAINER_1]",
+                "crc": "4294930942",
+                "indentTree": 1,
+                "precalc": {
+                    "ControlHTML": "<div \tid=\"{dialog.componentName}.V.R{dialog.rownumber}.CONTAINER_1\"   \n\t\t\tclass=\"A5CWLayout \"  style=\"width: 100%; height: 100%; \"  ><!--DIV for Container control-->",
+                    "DesignViewHTML": ""
+                },
+                "shortControlType": "CONTAINERBEGIN",
+                "p": {
+                    "lastbutton": "OK",
+                    "control": "[Container Begin]",
+                    "controltype": "layout_directive_ContainerBegin",
+                    "icon": "$$format.border.style.dash"
+                },
                 "v": {
                     "container": {
                         "ID": "CONTAINER_1",
                         "contentAlignment": "Left",
+                        "contentVerticalAlign": "Top",
                         "width": "100%",
                         "height": "100%",
+                        "edgeOffset": "",
                         "buttonGroup": {
                             "orientation": "Horizontal"
                         },
                         "subType": "None",
-                        "contentVerticalAlign": "Top",
-                        "edgeOffset": "",
                         "allowScrolling": false,
                         "scrolling": {
                             "axis": "Both",
@@ -459,23 +502,21 @@
                     "precalc": {
                         "javascriptAbstractSetupCode": ""
                     }
-                },
-                "indentTree": 1,
-                "precalc": {
-                    "ControlHTML": "<div \tid=\"{dialog.componentName}.V.R{dialog.rownumber}.CONTAINER_1\"   \n\t\t\tclass=\"A5CWLayout \"  style=\"width: 100%; height: 100%; \"  ><!--DIV for Container control-->",
-                    "DesignViewHTML": ""
                 }
             },
             {
                 "controlType": "dialog_formcontrol",
                 "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=ca9794da-8600-43b4-994f-5377e4e41ead}{I:'$$generic.map'} [mapCajeros]",
-                "displayODFlat": "{Data=ca9794da-8600-43b4-994f-5377e4e41ead}{I:'$$generic.map'} [mapCajeros]",
-                "idInternal": "ca9794da-8600-43b4-994f-5377e4e41ead",
+                "displayODFlat": "{Data=2c0e775d-3939-4f63-9235-0f3d3b0811b8}{I:'$$generic.map'}[mapCajeros]",
+                "idInternal": "2c0e775d-3939-4f63-9235-0f3d3b0811b8",
                 "parentContainer": 5,
                 "displayOD": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=ca9794da-8600-43b4-994f-5377e4e41ead}{I:'$$generic.map'} [mapCajeros]",
                 "repeatingSectionParentId": -1,
                 "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=ca9794da-8600-43b4-994f-5377e4e41ead}{I:'$$generic.map'} [mapCajeros]",
-                "crc": "4294951305",
+                "crc": "4294939987",
+                "indentTree": 2,
+                "inPanelCard": true,
+                "inTreeControl": false,
                 "v": {
                     "controlType": "Map",
                     "variableName": "mapCajeros",
@@ -484,11 +525,7 @@
                     "watermark": {
                         "text": "<FieldLabel>"
                     },
-                    "precalc": {
-                        "javascriptAbstractSetupCode": "",
-                        "javascript_mapSettings": "{dialog.object}._mapSettings['MAPCAJEROS'] = {theme: '{dialog.style}',ui: {overviewMap: false,draggable: true,zoomOnDblClick: true,panControl: false,scale: false,streetViewControl: false,zoomControl: false,mapTypeControl: false},route: {draggable: false,avoid: {highways: false,tolls: false},travelMode: 'Driving',units: 'Default',optimizeOrder: false,directionsPanel: 'ROUTE_PANEL_ID'},type: 'ROADMAP',onZoomChange: function(data) { },onInitialize: function(data) { ;\n\nif(typeof {dialog.object}._googlePlacesLoaded != 'undefined') { \n\tif(typeof {dialog.object}._googlePlacesLoadedHasRun == 'undefined') {\n\t\t{dialog.object}._googlePlacesLoaded();\n\t\t{dialog.object}._googlePlacesLoadedHasRun = true;\n\t}\n}}}; ",
-                        "javascript_map": "{dialog.object}._controls['MAPCAJEROS'] = { type: 'map', onInitialize: function() {  var mapObj = {dialog.object}.getControl('MAPCAJEROS');\nmapObj.setZoom(13);;} ,   settings:  {dialog.object}._mapSettings['MAPCAJEROS'] }"
-                    },
+                    "textboxSubTheme": "",
                     "textboxAutocorrect": true,
                     "textboxAutoCapitalize": true,
                     "label": "Map Cajeros",
@@ -508,6 +545,8 @@
                     "clientSideFormat": {
                         "type": "Mask"
                     },
+                    "getFunction": "",
+                    "setFunction": "",
                     "onChange_ValidationOption": "Client-side only",
                     "dataBinding": {
                         "updateable": true,
@@ -521,32 +560,6 @@
                             "backgroundimage": "",
                             "inkunits": 1
                         }
-                    },
-                    "textboxSubTheme": "",
-                    "getFunction": "",
-                    "setFunction": "",
-                    "datePicker": {
-                        "displayTimePicker": false,
-                        "openMethod": "ClickIcon",
-                        "dateFormat": "<Default>",
-                        "iconNumber": 2,
-                        "OKButtonLabel": "OK",
-                        "CancelButtonLabel": "Cancel",
-                        "userMustSelectFromDatePicker": false,
-                        "multiple": {
-                            "allow": false,
-                            "separators": ".."
-                        },
-                        "hasMask": false,
-                        "format": {
-                            "mask": ""
-                        },
-                        "timePickerOptionsDefined": false,
-                        "display": false
-                    },
-                    "displayAsSlider": false,
-                    "flags": {
-                        "clientSideDefinition": false
                     },
                     "map": {
                         "width": "4in",
@@ -595,103 +608,7 @@
                             "languageCode": "<Default>",
                             "apikey": ""
                         }
-                    }
-                },
-                "indentTree": 2,
-                "precalc": {
-                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: 4in\" >\n\t<!--FldS--><div id=\"{grid.componentname}.V.R{grid.rownumber}.MAPCAJEROS.CONTROL\"  style=\"width: 100%; height: 4in; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; \"></div>\n<!--FldE-->\n</div>",
-                    "DesignViewHTML": "",
-                    "columnInfo": "'MAPCAJEROS': {info: {controlType: 'Map'}, hiddenVal: false, type: 'control', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }\n"
-                },
-                "inPanelCard": true,
-                "inTreeControl": false
-            },
-            {
-                "controlType": "layout_directive_ContainerEnd",
-                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=4391a9b7-05a1-4d9a-94f3-65561504e412}{I:'vertLineCap'} [Container End: CONTAINER_1] �",
-                "displayODFlat": "{Data=4391a9b7-05a1-4d9a-94f3-65561504e412}{I:'$$format.border.style.dash'} [Container End]",
-                "idInternal": "4391a9b7-05a1-4d9a-94f3-65561504e412",
-                "parentContainer": 1,
-                "displayOD": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=4391a9b7-05a1-4d9a-94f3-65561504e412}{I:'vertLineCap'} [Container End]",
-                "repeatingSectionParentId": -1,
-                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=4391a9b7-05a1-4d9a-94f3-65561504e412}{I:'vertLineCap'} [Container End: CONTAINER_1] �",
-                "v": {
-                    "container": {
-                        "BreakType": "After",
-                        "BreakHeight": ".1in",
-                        "breakHorizontalSpace": ".1in"
-                    }
-                },
-                "indentTree": 1,
-                "precalc": {
-                    "ControlHTML": "<div style=\"font: 0pt arial;clear:both;\"></div>\n\t</div>\n<!--breakbegin--><br  id=\"{dialog.componentname}.V.R1.CONTAINER_1.BREAK\"  style=\"clear:both; \" /><!--breakend-->",
-                    "DesignViewHTML": ""
-                },
-                "containerStartIndex": 5
-            },
-            {
-                "controlType": "dialog_formcontrol",
-                "display": "{C=System-ButtonShadow,White}{B=White,Light Blue}{I:'vertLine'}{Data=124bddd4_af9d_473f_9bf8_cd975626aef7}{I:'$$control.browse'} [cajeros]",
-                "displayODFlat": "{Data=124bddd4_af9d_473f_9bf8_cd975626aef7}{I:'$$control.browse'} [cajeros]",
-                "idInternal": "124bddd4_af9d_473f_9bf8_cd975626aef7",
-                "parentContainer": 1,
-                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{Data=124bddd4_af9d_473f_9bf8_cd975626aef7}{I:'$$control.browse'} [cajeros]",
-                "repeatingSectionParentId": -1,
-                "displayODtree": "{C=System-ButtonShadow,White}{B=White,Light Blue}{I:'vertLine'}{Data=124bddd4_af9d_473f_9bf8_cd975626aef7}{I:'$$control.browse'} [cajeros]",
-                "crc": "4294909870",
-                "v": {
-                    "controlType": "List",
-                    "variableName": "cajeros",
-                    "type": "Character",
-                    "controlContainerPreventFloat": true,
-                    "maxLength": -1,
-                    "watermark": {
-                        "text": "<FieldLabel>"
                     },
-                    "precalc": {
-                        "javascriptAbstractSetupCode": "",
-                        "controlHTMLInPanelCard": "in panel card",
-                        "javascript_listViewData": "{dialog.object}._listViewData['CAJEROS'] = [[dialog.listViewData.cajeros]]; ",
-                        "javascript_listViewSettings": "{dialog.object}._listViewSettings['CAJEROS'] = [[dialog.listViewSettings.cajeros]]; ",
-                        "javascript_listview": "{dialog.object}._controls['CAJEROS'] =  { type: 'list',  data: {dialog.object}._listViewData['CAJEROS'],  onInitialize: function() { \n\t\tvar pe = $(this.contId).parentElement;\n\t\tif(typeof this.listVariableName != 'undefined') { \n\t\t\tvar _cn = '{dialog.componentName}_' + this.listVariableName.toUpperCase() + '_2';\n\t\t\t$acn(pe,_cn);\n\t\t}\n\t\n},  settings: {dialog.object}._listViewSettings['CAJEROS'] }"
-                    },
-                    "textboxAutocorrect": true,
-                    "textboxAutoCapitalize": true,
-                    "label": "Cajeros",
-                    "hide": true,
-                    "class": "<Default>",
-                    "breakType": "None",
-                    "breakHeight": ".1in",
-                    "breakHorizontalSpace": ".1in",
-                    "labelClass": "<Default>",
-                    "labelPosition": "None",
-                    "labelWidth": "{Global.LabelWidth}",
-                    "labelAlignment": "Left",
-                    "repeatingSectionColumnHeading": "<FieldLabel>",
-                    "embeddedJavascriptControl": true,
-                    "helpIcon": "images/$$generic.help.png.a5image",
-                    "showHelpIcon": "None",
-                    "helpIconBehavior": "ShowHelpOnClick",
-                    "clientSideFormat": {
-                        "type": "Mask"
-                    },
-                    "onChange_ValidationOption": "Client-side only",
-                    "dataBinding": {
-                        "updateable": true,
-                        "image": {
-                            "type": "JPG",
-                            "noImageFoundImage": "<None>",
-                            "newRecordImage": "<None>"
-                        },
-                        "ink": {
-                            "hasbackgroundimage": false,
-                            "backgroundimage": "",
-                            "inkunits": 1
-                        }
-                    },
-                    "textboxSubTheme": "",
-                    "getFunction": "",
-                    "setFunction": "",
                     "datePicker": {
                         "displayTimePicker": false,
                         "openMethod": "ClickIcon",
@@ -712,8 +629,110 @@
                         "display": false
                     },
                     "displayAsSlider": false,
+                    "precalc": {
+                        "javascript_mapSettings": "{dialog.object}._mapSettings['MAPCAJEROS'] = {theme: '{dialog.style}',ui: {overviewMap: false,draggable: true,zoomOnDblClick: true,panControl: false,scale: false,streetViewControl: false,zoomControl: false,mapTypeControl: false},route: {draggable: false,avoid: {highways: false,tolls: false},travelMode: 'Driving',units: 'Default',optimizeOrder: false,directionsPanel: 'ROUTE_PANEL_ID'},type: 'ROADMAP',onZoomChange: function(data) { },onInitialize: function(data) { ;\n\nif(typeof {dialog.object}._googlePlacesLoaded != 'undefined') { \n\tif(typeof {dialog.object}._googlePlacesLoadedHasRun == 'undefined') {\n\t\t{dialog.object}._googlePlacesLoaded();\n\t\t{dialog.object}._googlePlacesLoadedHasRun = true;\n\t}\n}}}; ",
+                        "javascript_map": "{dialog.object}._controls['MAPCAJEROS'] = { type: 'map', onInitialize: function() {  var mapObj = {dialog.object}.getControl('MAPCAJEROS');\nmapObj.setZoom(13);;} ,   settings:  {dialog.object}._mapSettings['MAPCAJEROS'] }",
+                        "javascriptAbstractSetupCode": ""
+                    },
                     "flags": {
                         "clientSideDefinition": false
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: 4in\" >\n\t<!--FldS--><div id=\"{grid.componentname}.V.R{grid.rownumber}.MAPCAJEROS.CONTROL\"  style=\"width: 100%; height: 4in; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; \"></div>\n<!--FldE-->\n</div>",
+                    "DesignViewHTML": "",
+                    "columnInfo": "'MAPCAJEROS': {info: {controlType: 'Map'}, hiddenVal: false, type: 'control', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }\n"
+                }
+            },
+            {
+                "controlType": "layout_directive_ContainerEnd",
+                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=88d94d67-8099-4c0d-a260-e62b737fb03f}{I:'vertLineCap'} [Container End: CONTAINER_1] �",
+                "displayODFlat": "{Data=88d94d67-8099-4c0d-a260-e62b737fb03f}{I:'$$format.border.style.dash'}[Container End]",
+                "idInternal": "88d94d67-8099-4c0d-a260-e62b737fb03f",
+                "parentContainer": 1,
+                "displayOD": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=4391a9b7-05a1-4d9a-94f3-65561504e412}{I:'vertLineCap'} [Container End]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=88d94d67-8099-4c0d-a260-e62b737fb03f}{I:'vertLineCap'} [Container End: CONTAINER_1] �",
+                "crc": "4294952167",
+                "indentTree": 1,
+                "precalc": {
+                    "ControlHTML": "<div style=\"font: 0pt arial;clear:both;\"></div>\n\t</div>\n<!--breakbegin--><br  id=\"{dialog.componentname}.V.R1.CONTAINER_1.BREAK\"  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "containerStartIndex": 5,
+                "shortControlType": "CONTAINEREND",
+                "p": {
+                    "control": "[Container End]",
+                    "controltype": "layout_directive_ContainerEnd",
+                    "icon": "$$format.border.style.dash",
+                    "lastbutton": "OK"
+                },
+                "v": {
+                    "container": {
+                        "BreakType": "After",
+                        "BreakHeight": ".1in",
+                        "breakHorizontalSpace": ".1in"
+                    }
+                }
+            },
+            {
+                "controlType": "dialog_formcontrol",
+                "display": "{C=System-ButtonShadow,White}{B=White,Light Blue}{I:'vertLine'}{Data=124bddd4_af9d_473f_9bf8_cd975626aef7}{I:'$$control.browse'} [cajeros]",
+                "displayODFlat": "{Data=5ffd8226-e4d5-4ef5-aaa1-3be360a857bc}{I:'$$control.browse'}[cajeros]",
+                "idInternal": "5ffd8226-e4d5-4ef5-aaa1-3be360a857bc",
+                "parentContainer": 1,
+                "displayOD": "{B=White,Light Blue}{I:'vertLine'}{Data=124bddd4_af9d_473f_9bf8_cd975626aef7}{I:'$$control.browse'} [cajeros]",
+                "repeatingSectionParentId": -1,
+                "displayODtree": "{C=System-ButtonShadow,White}{B=White,Light Blue}{I:'vertLine'}{Data=124bddd4_af9d_473f_9bf8_cd975626aef7}{I:'$$control.browse'} [cajeros]",
+                "crc": "4294952302",
+                "indentTree": 1,
+                "inPanelCard": true,
+                "inTreeControl": false,
+                "v": {
+                    "controlType": "List",
+                    "variableName": "cajeros",
+                    "type": "Character",
+                    "controlContainerPreventFloat": true,
+                    "maxLength": -1,
+                    "watermark": {
+                        "text": "<FieldLabel>"
+                    },
+                    "textboxSubTheme": "",
+                    "textboxAutocorrect": true,
+                    "textboxAutoCapitalize": true,
+                    "label": "Cajeros",
+                    "hide": true,
+                    "class": "<Default>",
+                    "breakType": "None",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "repeatingSectionColumnHeading": "<FieldLabel>",
+                    "embeddedJavascriptControl": true,
+                    "helpIcon": "images/$$generic.help.png.a5image",
+                    "showHelpIcon": "None",
+                    "helpIconBehavior": "ShowHelpOnClick",
+                    "clientSideFormat": {
+                        "type": "Mask"
+                    },
+                    "getFunction": "",
+                    "setFunction": "",
+                    "onChange_ValidationOption": "Client-side only",
+                    "dataBinding": {
+                        "updateable": true,
+                        "image": {
+                            "type": "JPG",
+                            "noImageFoundImage": "<None>",
+                            "newRecordImage": "<None>"
+                        },
+                        "ink": {
+                            "hasbackgroundimage": false,
+                            "backgroundimage": "",
+                            "inkunits": 1
+                        }
                     },
                     "listView": {
                         "class": "<Default>",
@@ -3881,9 +3900,38 @@
                         "previewMode": false,
                         "_templateCSS": "\n",
                         "optimizeJSONSize": true
+                    },
+                    "datePicker": {
+                        "displayTimePicker": false,
+                        "openMethod": "ClickIcon",
+                        "dateFormat": "<Default>",
+                        "iconNumber": 2,
+                        "OKButtonLabel": "OK",
+                        "CancelButtonLabel": "Cancel",
+                        "userMustSelectFromDatePicker": false,
+                        "multiple": {
+                            "allow": false,
+                            "separators": ".."
+                        },
+                        "hasMask": false,
+                        "format": {
+                            "mask": ""
+                        },
+                        "timePickerOptionsDefined": false,
+                        "display": false
+                    },
+                    "displayAsSlider": false,
+                    "precalc": {
+                        "controlHTMLInPanelCard": "in panel card",
+                        "javascript_listViewData": "{dialog.object}._listViewData['CAJEROS'] = [[dialog.listViewData.cajeros]]; ",
+                        "javascript_listViewSettings": "{dialog.object}._listViewSettings['CAJEROS'] = [[dialog.listViewSettings.cajeros]]; ",
+                        "javascript_listview": "{dialog.object}._controls['CAJEROS'] =  { type: 'list',  data: {dialog.object}._listViewData['CAJEROS'],  onInitialize: function() { \n\t\tvar pe = $(this.contId).parentElement;\n\t\tif(typeof this.listVariableName != 'undefined') { \n\t\t\tvar _cn = '{dialog.componentName}_' + this.listVariableName.toUpperCase() + '_2';\n\t\t\t$acn(pe,_cn);\n\t\t}\n\t\n},  settings: {dialog.object}._listViewSettings['CAJEROS'] }",
+                        "javascriptAbstractSetupCode": ""
+                    },
+                    "flags": {
+                        "clientSideDefinition": false
                     }
                 },
-                "indentTree": 1,
                 "precalc": {
                     "ControlHTML": "<span><!--JSControlStart--><input type=\"hidden\" id=\"{grid.componentname}.V.R{grid.rownumber}.CAJEROS\" name=\"V.R{grid.rownumber}.CAJEROS\" /><!--JSControlEnd-->\n<div  class=\"[theme:listBox.base.className|{dialog.style}List]\"   style=\"padding:0px; \"  >\n\t<div id=\"{grid.componentname}.V.R{grid.rownumber}.CAJEROS.CONTROL\"  class=\"{grid.componentName}_CAJEROS\" style=\"overflow: auto; width: 100%; height: 3in; \"></div>\n</div>\n</span>",
                     "DesignViewHTML": "",
@@ -3893,25 +3941,31 @@
                     "listViewHasBeenRendered": false,
                     "js_afterListInitialize": "var listObj = {UXPRERENDEREDALIAS}_DlgObj.getControl('CAJEROS');\nif(listObj) listObj._state.recordCount = 0;\nif(listObj) listObj._state.recordCountFormatted = '0';\nif(listObj) listObj._state.lastBreakValue = '<None>';\nif(listObj) listObj._state.pageCount = 0;\nif(listObj) listObj._state.pageSize = 20;\nif(listObj) {var ele = $('{UXPRERENDEREDALIAS}.cajeros.RECORDCOUNT'); if(ele) ele.innerHTML = listObj._state.recordCountFormatted;};\nif(listObj) listObj._state.paginated = false;\n\nif(listObj) listObj._state.filter = '';\nif(listObj) listObj._state.having = '';\nif(listObj) listObj._state.order = '';\nif(listObj) listObj._state.filterParameters = '';\nif(listObj) listObj._state.highlight = {  };\nif(listObj) listObj._state.whereClause = '';\nif(listObj) listObj._state.whereParameters = '';\n\t\t\n\t\tvar flagPersist = false;\n\t\tif(typeof listObj._flagPersistDataOK != 'undefined') { \n\t\t\tif(listObj._flagPersistDataOK) { \n\t\t\t\tvar data = listObj._data;\n\t\t\t\tlistObj.persistToStorage({mode:'populate', data: data, submode: 'ListViewData'});\n\t\t\t}\n\t\t}\n\t\t\n\t\t\n;\n{UXPRERENDEREDALIAS}_DlgObj._list_executeEvent('CAJEROS','afterRenderComplete',{});\n\nif(listObj._refreshStateMessages) listObj._refreshStateMessages();",
                     "list_CapturedFieldValueFromFirstRow": ""
-                },
-                "inPanelCard": true,
-                "inTreeControl": false
+                }
             },
             {
                 "controlType": "layout_directive_PanelCardEnd",
-                "display": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{Data=81235d9f-be1e-4eb7-a688-dfca500eb300}{I:'vertLineCap'} [Panel Card End: PANELCARD_1]",
-                "displayODFlat": "{Data=81235d9f-be1e-4eb7-a688-dfca500eb300}{I:'vertlinecap'} [Panel Card End]",
-                "idInternal": "81235d9f-be1e-4eb7-a688-dfca500eb300",
+                "display": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{Data=6d1966e9-34bc-49f1-a37c-6eba77a41c37}{I:'vertLineCap'} [Panel Card End: PANELCARD_1]",
+                "displayODFlat": "{Data=6d1966e9-34bc-49f1-a37c-6eba77a41c37}{I:'vertlinecap'}[Panel Card End]",
+                "idInternal": "6d1966e9-34bc-49f1-a37c-6eba77a41c37",
                 "parentContainer": -1,
                 "displayOD": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{Data=81235d9f-be1e-4eb7-a688-dfca500eb300}{I:'vertlinecap'} [Panel Card End]",
                 "repeatingSectionParentId": -1,
-                "displayODtree": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{Data=81235d9f-be1e-4eb7-a688-dfca500eb300}{I:'vertLineCap'} [Panel Card End: PANELCARD_1]",
+                "displayODtree": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{Data=6d1966e9-34bc-49f1-a37c-6eba77a41c37}{I:'vertLineCap'} [Panel Card End: PANELCARD_1]",
+                "crc": "4294953100",
                 "indentTree": 0,
                 "precalc": {
                     "ControlHTML": "'xbasic\nv._dirty = .f.\n",
                     "DesignViewHTML": ""
                 },
-                "containerStartIndex": 1
+                "containerStartIndex": 1,
+                "shortControlType": "PANELCARDEND",
+                "p": {
+                    "control": "[Panel Card End]",
+                    "controltype": "layout_directive_PanelCardEnd",
+                    "icon": "vertlinecap",
+                    "lastbutton": "OK"
+                }
             }
         ],
         "builderType": "Dialog2",
@@ -3946,11 +4000,11 @@
         "showLineNumbersInControlsList": false,
         "saveFileType": "Formatted JSON",
         "keyboardShortcutsJSON": "",
-        "preRenderWarningMessageShow": true,
+        "preRenderWarningMessageShow": false,
         "autoSetPreRenderOnForAllUX": true,
-        "selected": "124bddd4_af9d_473f_9bf8_cd975626aef7\n",
+        "selected": "c0fa32be-c99f-4887-afab-11a7afec31bc",
         "designPaneIndex": 1,
-        "masterPaneC": "XbasicFunctions",
+        "masterPaneC": "Overview",
         "serverSideEventIndex": 1,
         "clientSideEventIndex": 1,
         "clientSideEventIndexC": "1",
@@ -3959,8 +4013,6 @@
         "embeddedMode": false,
         "_style_hassubthemeTweaks": false,
         "repeatingSectionsAreDirty": true,
-        "containerSubTypeNew": "",
-        "containerSubTypeOld": "",
         "flagDropdownCascadingChanged": false,
         "toolBox_value": "",
         "addinBuildNumber": "5036",
@@ -3968,7 +4020,7 @@
         "alphaFiveBuildNumber": "12",
         "openedFromTemplate": false,
         "builtWithVersionNumer": 1,
-        "_buildCount": "16",
+        "_buildCount": "17",
         "securityEnabled": false,
         "showHideIsUsed": false,
         "precalc": {
@@ -4098,7 +4150,7 @@
         "sassProcessor": true,
         "debugMode": false,
         "__jsLibraries": "<script type=\"text/javascript\" src=\"javascript/a5.js\"></script>\n<script type=\"text/javascript\" src=\"javascript/a5_url.js\"></script>\n",
-        "A5SaveTimeStamp": "20180221171220168",
+        "A5SaveTimeStamp": "20180222165012829",
         "a_actionJavascript": [
             {
                 "actionGuid": "b077f893-4791-4c9f-91bc-9449cf5fd061  ",
@@ -4113,7 +4165,7 @@
         "_forceMobileSimulation": false,
         "__flagCreateAppCache": false,
         "_flagDoTreeview": true,
-        "__idinternalCurrentControl": "124bddd4_af9d_473f_9bf8_cd975626aef7",
+        "__idinternalCurrentControl": "5ffd8226-e4d5-4ef5-aaa1-3be360a857bc",
         "__nameCurrentControl": "cajeros",
         "a_UnboundActionJavascript": [
             {
@@ -4139,12 +4191,13 @@
         ],
         "unboundActionShowOnNewActionMessage": true,
         "actionJavascriptUnboundLastEdited": "045fc499-ee4b-4a35-ad8a-cffee714fac1",
+        "_flagCreateDialogUsingXbasic": true,
         "prerendered": {
             "_styledataVersion": 3,
             "output": {
                 "Head": {
                     "JavaScript": "<script type=\"text/javascript\" src=\"javascript/a5.js\"></script>\n<script type=\"text/javascript\" src=\"javascript/a5_url.js\"></script>\n<!-LoadExternalLibraries->\n__replaceatRuntime__cssstyletweaks__",
-                    "CSS_Link": "<style type=\"text/css\">\nhtml { -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-user-select: none; -ms-touch-action: none;}\niframe {-webkit-user-select: text;}\n.A5container {float:left;padding:0px;}\n.A5CWLayout {padding: 4px; float: left; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;}\n.A5GridHideErrorCol .A5GridErrorCol {display:none; }\n.A5GridRowErrorIcon {display:none;}\n.A5GridHasRowError .A5GridRowErrorIcon {display:inline-block;}\n.A5GridRowViewMode {display:block;}\n.A5GridRowEditMode {display:none;}\n.A5GridRowInEditMode .A5GridRowViewMode {display:none;}\n.A5GridRowInEditMode .A5GridRowEditMode {display:block;}\n.A5GridRowDirty {display:none;}\n.A5GridRowClean {display:inline;}\n.A5GridRowIsDirty .A5GridRowDirty {display:inline;}\n.A5GridRowIsDirty .A5GridRowClean {display:none;}\n.errorText {color:red;font-size:8pt;}\n.errorTextHighlight {font-weight:bold;font-size:8pt;}\n.errorTip {color:red;background:#fffafa url('images/$box/$size/8x8/$fill/Up%5FDiagonal:White%3A%23255%2C239%2C239.png.a5image');border:1px solid #f88;margin-top:2px;padding:2px;font-size:8pt;}\n.errorInput {color:red;border:1px solid red;margin:1px;}\n.errorInputHighlight {color:red;border:2px solid red;margin:0px;}\n.A5SelectedButton {opacity:.5;filter:alpha(opacity=50);}\n.A5InvisibleLock {background: rgba(0,0,0,0); }\n\n\n\n.A5ContainerAlignCenter {padding: 4px; margin-left:auto;margin-right:auto;text-align: center;}\n.A5ContainerAlignLeft {padding: 4px; margin-right:auto;text-align: left;} \n.A5ContainerAlignRight {padding: 4px; margin-left:auto;text-align: right;}\n\n.A5ContainerAlignCenter > .A5CWLayout, .A5ContainerAlignLeft > .A5CWLayout, .A5ContainerAlignRight > .A5CWLayout, .A5ContainerAlignCenter > .A5container, .A5ContainerAlignLeft > .A5container, .A5ContainerAlignRight > .A5container  {display: inline-block; float: none;}\n\n\n\n\n.A5AccordionTitleOn, .A5AccordionTitleOff, .A5AccordionTitleDisabled {display: block;border: 1px solid #999;padding: 2px;text-decoration: none;cursor: pointer;margin-bottom: 2px; padding: 2px}\n.A5AccordionPane {border: 1px solid #999;border-top: none;margin-bottom: 2px;margin-top: -2px;}\n.A5TabTopOn, .A5TabTopOff, .A5TabTopDisabled {display: block;float: left;border: 1px solid #999;border-bottom: none;margin-right: 2px;padding: 2px;text-decoration: none;cursor: pointer;}\n.A5TabTopOn {margin-bottom: -1px;padding-bottom: 3px;}\n.A5TabBottomOn, .A5TabBottomOff, .A5TabBottomDisabled {display: block;float: left;border: 1px solid #999;margin-right: 2px;padding: 2px;text-decoration: none;cursor: pointer;}\n.A5TabBottomOn {border-top: none;padding-top: 3px;}\n.A5TabLeftOn, .A5TabLeftOff, .A5TabLeftDisabled {display: block;border: 1px solid #999;margin-bottom: 2px;padding: 2px;text-decoration: none;cursor: pointer;}\n.A5TabLeftOn {margin-right: -1px;padding-right: 3px;border-right: none;}\n.A5TabRightOn, .A5TabRightOff, .A5TabRightDisabled {display: block;border: 1px solid #999;border-left: none;margin-bottom: 2px;padding: 2px;text-decoration: none;cursor: pointer;}\n.A5TabRightOn {margin-left: -1px;padding-left: 3px;}\n.A5TabTopPane, .A5TabBottomPane, .A5TabLeftPane, .A5TabRightPane {border: 1px solid #999; padding: 2px;}\n\n\n.A5TabBand {border: 1px solid #999; padding: 0px;}\n.A5TabBandTabOn, .A5TabBandTabOff, .A5TabBandTabDisabled {position: relative;display: block;border: 1px solid #999;border-bottom: none;margin-right: 2px;margin-top: 2px;padding: 2px;text-decoration: none;cursor: pointer;white-space: nowrap;}\n.A5TabBandTabOn {margin-bottom: -1px;padding-bottom: 3px;}\n.A5TabBandSeparator {border: none;border-top: 1px solid #999;height: 3px;padding: 0px;font: 0pt arial;}\n.A5TabBandLeftScroll {position: relative;display: block;padding: 2px;margin-bottom: -1px;padding-bottom: 3px;text-decoration: none;border: 1px solid #999;border-left: none;border-bottom: none;}\n.A5TabBandRightScroll {position: relative;display: block;padding: 2px;margin-bottom: -1px;padding-bottom: 3px;text-decoration: none;border: 1px solid #999;border-right: none;border-bottom: none;}\n.A5TabBandTabDisabled, .A5TabTopDisabled, .A5TabLeftDisabled, .A5TabRightDisabled, .A5TabBottomDisabled, .A5AccordionTitleDisabled {opacity: .5; filter: alpha(opacity: 50)}\n.A5Window {-moz-border-radius: 3px; -webkit-border-radius: 3px;}\n.A5WindowLock{border: 1px solid #000;background: #222;opacity: .25;filter: alpha(opacity: 25);}\n\n.A5AccordionTitleOn:hover, .A5AccordionTitleOff:hover, .A5TabBandTabOff:hover, .A5TabTopOff:hover, .A5TabLeftOff:hover, .A5TabRightOff:hover, .A5TabBottomOff:hover{text-decoration: underline;}\n\n.A5MenuItem {text-decoration:none;}\n.A5DialogRSSeparator {border-top: 1px dotted #ccc; line-height:5px; margin-top: 5px;}\n.A5DialogRSFooter {margin-top: 10px;}\n\n\n\n\n\n</style>\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"css/iOS7/style.css?16\">\n<script type=\"text/javascript\" src=\"css/iOS7/style.js?16\"></script>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"css/_sharedStyles/style.css?16\">\n\n<style type=\"text/css\">\n.{UXPRERENDEREDALIAS}_CAJEROS_2{\n}\n</style>\n<style>\n</style>\n",
+                    "CSS_Link": "<style type=\"text/css\">\nhtml { -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-user-select: none; -ms-touch-action: none;}\niframe {-webkit-user-select: text;}\n.A5container {float:left;padding:0px;}\n.A5CWLayout {padding: 4px; float: left; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;}\n.A5GridHideErrorCol .A5GridErrorCol {display:none; }\n.A5GridRowErrorIcon {display:none;}\n.A5GridHasRowError .A5GridRowErrorIcon {display:inline-block;}\n.A5GridRowViewMode {display:block;}\n.A5GridRowEditMode {display:none;}\n.A5GridRowInEditMode .A5GridRowViewMode {display:none;}\n.A5GridRowInEditMode .A5GridRowEditMode {display:block;}\n.A5GridRowDirty {display:none;}\n.A5GridRowClean {display:inline;}\n.A5GridRowIsDirty .A5GridRowDirty {display:inline;}\n.A5GridRowIsDirty .A5GridRowClean {display:none;}\n.errorText {color:red;font-size:8pt;}\n.errorTextHighlight {font-weight:bold;font-size:8pt;}\n.errorTip {color:red;background:#fffafa url('images/$box/$size/8x8/$fill/Up%5FDiagonal:White%3A%23255%2C239%2C239.png.a5image');border:1px solid #f88;margin-top:2px;padding:2px;font-size:8pt;}\n.errorInput {color:red;border:1px solid red;margin:1px;}\n.errorInputHighlight {color:red;border:2px solid red;margin:0px;}\n.A5SelectedButton {opacity:.5;filter:alpha(opacity=50);}\n.A5InvisibleLock {background: rgba(0,0,0,0); }\n\n\n\n.A5ContainerAlignCenter {padding: 4px; margin-left:auto;margin-right:auto;text-align: center;}\n.A5ContainerAlignLeft {padding: 4px; margin-right:auto;text-align: left;} \n.A5ContainerAlignRight {padding: 4px; margin-left:auto;text-align: right;}\n\n.A5ContainerAlignCenter > .A5CWLayout, .A5ContainerAlignLeft > .A5CWLayout, .A5ContainerAlignRight > .A5CWLayout, .A5ContainerAlignCenter > .A5container, .A5ContainerAlignLeft > .A5container, .A5ContainerAlignRight > .A5container  {display: inline-block; float: none;}\n\n\n\n\n.A5AccordionTitleOn, .A5AccordionTitleOff, .A5AccordionTitleDisabled {display: block;border: 1px solid #999;padding: 2px;text-decoration: none;cursor: pointer;margin-bottom: 2px; padding: 2px}\n.A5AccordionPane {border: 1px solid #999;border-top: none;margin-bottom: 2px;margin-top: -2px;}\n.A5TabTopOn, .A5TabTopOff, .A5TabTopDisabled {display: block;float: left;border: 1px solid #999;border-bottom: none;margin-right: 2px;padding: 2px;text-decoration: none;cursor: pointer;}\n.A5TabTopOn {margin-bottom: -1px;padding-bottom: 3px;}\n.A5TabBottomOn, .A5TabBottomOff, .A5TabBottomDisabled {display: block;float: left;border: 1px solid #999;margin-right: 2px;padding: 2px;text-decoration: none;cursor: pointer;}\n.A5TabBottomOn {border-top: none;padding-top: 3px;}\n.A5TabLeftOn, .A5TabLeftOff, .A5TabLeftDisabled {display: block;border: 1px solid #999;margin-bottom: 2px;padding: 2px;text-decoration: none;cursor: pointer;}\n.A5TabLeftOn {margin-right: -1px;padding-right: 3px;border-right: none;}\n.A5TabRightOn, .A5TabRightOff, .A5TabRightDisabled {display: block;border: 1px solid #999;border-left: none;margin-bottom: 2px;padding: 2px;text-decoration: none;cursor: pointer;}\n.A5TabRightOn {margin-left: -1px;padding-left: 3px;}\n.A5TabTopPane, .A5TabBottomPane, .A5TabLeftPane, .A5TabRightPane {border: 1px solid #999; padding: 2px;}\n\n\n.A5TabBand {border: 1px solid #999; padding: 0px;}\n.A5TabBandTabOn, .A5TabBandTabOff, .A5TabBandTabDisabled {position: relative;display: block;border: 1px solid #999;border-bottom: none;margin-right: 2px;margin-top: 2px;padding: 2px;text-decoration: none;cursor: pointer;white-space: nowrap;}\n.A5TabBandTabOn {margin-bottom: -1px;padding-bottom: 3px;}\n.A5TabBandSeparator {border: none;border-top: 1px solid #999;height: 3px;padding: 0px;font: 0pt arial;}\n.A5TabBandLeftScroll {position: relative;display: block;padding: 2px;margin-bottom: -1px;padding-bottom: 3px;text-decoration: none;border: 1px solid #999;border-left: none;border-bottom: none;}\n.A5TabBandRightScroll {position: relative;display: block;padding: 2px;margin-bottom: -1px;padding-bottom: 3px;text-decoration: none;border: 1px solid #999;border-right: none;border-bottom: none;}\n.A5TabBandTabDisabled, .A5TabTopDisabled, .A5TabLeftDisabled, .A5TabRightDisabled, .A5TabBottomDisabled, .A5AccordionTitleDisabled {opacity: .5; filter: alpha(opacity: 50)}\n.A5Window {-moz-border-radius: 3px; -webkit-border-radius: 3px;}\n.A5WindowLock{border: 1px solid #000;background: #222;opacity: .25;filter: alpha(opacity: 25);}\n\n.A5AccordionTitleOn:hover, .A5AccordionTitleOff:hover, .A5TabBandTabOff:hover, .A5TabTopOff:hover, .A5TabLeftOff:hover, .A5TabRightOff:hover, .A5TabBottomOff:hover{text-decoration: underline;}\n\n.A5MenuItem {text-decoration:none;}\n.A5DialogRSSeparator {border-top: 1px dotted #ccc; line-height:5px; margin-top: 5px;}\n.A5DialogRSFooter {margin-top: 10px;}\n\n\n\n\n\n</style>\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"css/iOS7/style.css?17\">\n<script type=\"text/javascript\" src=\"css/iOS7/style.js?17\"></script>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"css/_sharedStyles/style.css?17\">\n\n<style type=\"text/css\">\n.{UXPRERENDEREDALIAS}_CAJEROS_2{\n}\n</style>\n<style>\n</style>\n",
                     "title": "<title>UX</title>"
                 },
                 "body": {

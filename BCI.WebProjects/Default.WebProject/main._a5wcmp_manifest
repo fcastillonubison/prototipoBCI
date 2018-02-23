@@ -1,11 +1,11 @@
-A5SaveTimeStamp:20180221164300941
+A5SaveTimeStamp:20180223095736271
 css:iOS7
 cssIcon:font-awesome
 subComponent:indicadores.a5wcmp
 subComponent:sucursales.a5wcmp
 subComponent:cajeros.a5wcmp
 subComponent:credhip.a5wcmp
-subComponent:descuentos.a5wcmp
+subComponent:descuentosp.a5wcmp
 subComponent:credcons.a5wcmp
 subComponent:cuentas.a5wcmp
 subComponent:analitica.a5wcmp
@@ -23,15 +23,15 @@ subComponent:indicadores
 subComponent:sucursales
 subComponent:cajeros
 subComponent:credhip
-subComponent:descuentos
+subComponent:descuentosp
 subComponent:credcons
 subComponent:cuentas
 subComponent:analitica
-precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_516361af264c4970b7c54c961fcd4384_indicadores', uxname: 'indicadores', alias: '{alias}_INDICADORES'}
-precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_4413830a12054fb8ab750a912fc667b5_sucursales', uxname: 'sucursales', alias: '{alias}_SUCURSALES'}
-precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_2e3b69d6ac6d4c8ab71179967d91b8a6_cajeros', uxname: 'cajeros', alias: '{alias}_CAJEROS'}
-precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_1227bd2795f44bc1b0d6c93669143358_credhip', uxname: 'credhip', alias: '{alias}_CREDHIP'}
-precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_1ebb9d5cd63546eeaf6e38957e93fed6_descuentos', uxname: 'descuentos', alias: '{alias}_DESCUENTOS'}
-precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_0790107843ef4de381533cccf013aec7_credcons', uxname: 'credcons', alias: '{alias}_CREDCONS'}
-precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_721885b9abf34d22a6cceb2690edf8af_cuentas', uxname: 'cuentas', alias: '{alias}_CUENTAS'}
-precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_5243ff6bb4b5450ca363d6b537c124d9_analitica', uxname: 'analitica', alias: '{alias}_ANALITICA'}
+precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_f020bb04248f4f028c07af161257066d_indicadores', uxname: 'indicadores', alias: '{alias}_INDICADORES'}
+precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_fd4afb8ed4a54a71ad7055acf0a02f81_sucursales', uxname: 'sucursales', alias: '{alias}_SUCURSALES'}
+precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_a4b0c23b99624b278d3df9f2c75c73cc_cajeros', uxname: 'cajeros', alias: '{alias}_CAJEROS'}
+precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_fc1af991f78e4bf8bc31af9d2d4dbc61_credhip', uxname: 'credhip', alias: '{alias}_CREDHIP'}
+precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_5c8cafc69d3546efa3555eb3ab8213d9_descuentosp', uxname: 'descuentosp', alias: '{alias}_DESCUENTOS'}
+precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_9123bd2b661742b2a61158fd6f1a9fe4_credcons', uxname: 'credcons', alias: '{alias}_CREDCONS'}
+precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_291d9c4e05304cebbb315c12d32812cb_cuentas', uxname: 'cuentas', alias: '{alias}_CUENTAS'}
+precomputedUXComponent: {functionName: 'PRECOMPUTEDUX_bf0d6a2a8aac45feb32cc29bc70e866a_analitica', uxname: 'analitica', alias: '{alias}_ANALITICA'}
