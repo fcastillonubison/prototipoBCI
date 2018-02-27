@@ -78,8 +78,8 @@ iframe {-webkit-user-select: text;}
 
 </style>
 
-<link rel="stylesheet" type="text/css" href="css/iOS7/style.css?141">
-<link rel="stylesheet" type="text/css" href="css/_sharedStyles/style.css?141">
+<link rel="stylesheet" type="text/css" href="css/iOS7/style.css?147">
+<link rel="stylesheet" type="text/css" href="css/_sharedStyles/style.css?147">
 
 <link rel="stylesheet" type="text/css" href="css/CSSIcons/font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/CSSIcons/font-awesome/fonts/fontawesome-webfont.eot">
@@ -109,7 +109,7 @@ iframe {-webkit-user-select: text;}
 </script>
 <script type="text/javascript"  src="js/framework7.min.js"></script>
 <link rel="stylesheet" type="text/css" href="css/framework7.md.min.css">
-<script type="text/javascript" src="__precomputedUXComponents.js?ueqqfgsh=11157334"></script>
+<script type="text/javascript" src="__precomputedUXComponents.js?hkvoswek=181544106"></script>
 <script type="text/javascript" src="_phoneGapSettings.js"></script>
 <script type="text/javascript" src="js/framework7.min.js"></script>
 
@@ -529,17 +529,12 @@ if(typeof DLG1_DlgObj == 'object') {
 	flow: 'ltr',
 	loopNavigate: false,
 	onPanelActivate: function() {var panelName = this.state.activePanel;
-if(panelName == 'PANELCARD_1') {
-	DLG1_DlgObj.synchronizeEmbeddedUX('INDICADORES');;
-}	
-var panelName = this.state.activePanel;
 if(panelName == 'PANELCARD_2') {
 	var runJS = true;
 	if(typeof this.state._render != 'undefined') {
 		var rs = this.state._render[panelName];
 		if(typeof rs !=  'undefined') {
 			if(rs == true) {
-				DLG1_DlgObj.synchronizeEmbeddedUX('SUCURSALES');
 				runJS = false;
 			}
 		}
@@ -557,7 +552,6 @@ if(panelName == 'PANELCARD_3') {
 		var rs = this.state._render[panelName];
 		if(typeof rs !=  'undefined') {
 			if(rs == true) {
-				DLG1_DlgObj.synchronizeEmbeddedUX('CAJEROS');
 				runJS = false;
 			}
 		}
@@ -575,7 +569,6 @@ if(panelName == 'PANELCARD_4') {
 		var rs = this.state._render[panelName];
 		if(typeof rs !=  'undefined') {
 			if(rs == true) {
-				DLG1_DlgObj.synchronizeEmbeddedUX('CREDHIP');
 				runJS = false;
 			}
 		}
@@ -593,7 +586,6 @@ if(panelName == 'PANELCARD_5') {
 		var rs = this.state._render[panelName];
 		if(typeof rs !=  'undefined') {
 			if(rs == true) {
-				DLG1_DlgObj.synchronizeEmbeddedUX('DESCUENTOS');
 				runJS = false;
 			}
 		}
@@ -611,7 +603,6 @@ if(panelName == 'PANELCARD_6') {
 		var rs = this.state._render[panelName];
 		if(typeof rs !=  'undefined') {
 			if(rs == true) {
-				DLG1_DlgObj.synchronizeEmbeddedUX('CREDCONS');
 				runJS = false;
 			}
 		}
@@ -629,7 +620,6 @@ if(panelName == 'PANELCARD_7') {
 		var rs = this.state._render[panelName];
 		if(typeof rs !=  'undefined') {
 			if(rs == true) {
-				DLG1_DlgObj.synchronizeEmbeddedUX('CUENTAS');
 				runJS = false;
 			}
 		}
@@ -647,7 +637,6 @@ if(panelName == 'PANELCARD_8') {
 		var rs = this.state._render[panelName];
 		if(typeof rs !=  'undefined') {
 			if(rs == true) {
-				DLG1_DlgObj.synchronizeEmbeddedUX('ANALITICA');
 				runJS = false;
 			}
 		}
@@ -849,9 +838,9 @@ go.dialog2Div = panelCardId;
 	var runMethod = 'precomputed';
 if(DLG1_DlgObj._embeddedMode) runMethod = 'ajax';
 if(DLG1_DlgObj._staticHTMLMode) runMethod = 'precomputed';
-if(runMethod.toLowerCase() != 'ajax'  && typeof window['PRECOMPUTEDUX_f020bb04248f4f028c07af161257066d_indicadores'] == 'function') { 
-	//PRECOMPUTED_UX_COMPONENT: {functionName: 'PRECOMPUTEDUX_f020bb04248f4f028c07af161257066d_indicadores', uxname: 'indicadores', alias: 'DLG1_INDICADORES'}
-	var jsToRun = PRECOMPUTEDUX_f020bb04248f4f028c07af161257066d_indicadores(go);
+if(runMethod.toLowerCase() != 'ajax'  && typeof window['PRECOMPUTEDUX_f5c391638dc14838b72ce289a6d65463_indicadores'] == 'function') { 
+	//PRECOMPUTED_UX_COMPONENT: {functionName: 'PRECOMPUTEDUX_f5c391638dc14838b72ce289a6d65463_indicadores', uxname: 'indicadores', alias: 'DLG1_INDICADORES'}
+	var jsToRun = PRECOMPUTEDUX_f5c391638dc14838b72ce289a6d65463_indicadores(go);
 	eval(jsToRun);
 	if(typeof go.onLoadCompleteJavascript != 'undefined') { 
 		var txt = go.onLoadCompleteJavascript.split(':')[1];
@@ -903,9 +892,9 @@ go.dialog2Div = panelCardId;
 	var runMethod = 'precomputed';
 if(DLG1_DlgObj._embeddedMode) runMethod = 'ajax';
 if(DLG1_DlgObj._staticHTMLMode) runMethod = 'precomputed';
-if(runMethod.toLowerCase() != 'ajax'  && typeof window['PRECOMPUTEDUX_fd4afb8ed4a54a71ad7055acf0a02f81_sucursales'] == 'function') { 
-	//PRECOMPUTED_UX_COMPONENT: {functionName: 'PRECOMPUTEDUX_fd4afb8ed4a54a71ad7055acf0a02f81_sucursales', uxname: 'sucursales', alias: 'DLG1_SUCURSALES'}
-	var jsToRun = PRECOMPUTEDUX_fd4afb8ed4a54a71ad7055acf0a02f81_sucursales(go);
+if(runMethod.toLowerCase() != 'ajax'  && typeof window['PRECOMPUTEDUX_28562ba55a314d6fac49842b87fea747_sucursales'] == 'function') { 
+	//PRECOMPUTED_UX_COMPONENT: {functionName: 'PRECOMPUTEDUX_28562ba55a314d6fac49842b87fea747_sucursales', uxname: 'sucursales', alias: 'DLG1_SUCURSALES'}
+	var jsToRun = PRECOMPUTEDUX_28562ba55a314d6fac49842b87fea747_sucursales(go);
 	eval(jsToRun);
 	if(typeof go.onLoadCompleteJavascript != 'undefined') { 
 		var txt = go.onLoadCompleteJavascript.split(':')[1];
@@ -957,9 +946,9 @@ go.dialog2Div = panelCardId;
 	var runMethod = 'precomputed';
 if(DLG1_DlgObj._embeddedMode) runMethod = 'ajax';
 if(DLG1_DlgObj._staticHTMLMode) runMethod = 'precomputed';
-if(runMethod.toLowerCase() != 'ajax'  && typeof window['PRECOMPUTEDUX_a4b0c23b99624b278d3df9f2c75c73cc_cajeros'] == 'function') { 
-	//PRECOMPUTED_UX_COMPONENT: {functionName: 'PRECOMPUTEDUX_a4b0c23b99624b278d3df9f2c75c73cc_cajeros', uxname: 'cajeros', alias: 'DLG1_CAJEROS'}
-	var jsToRun = PRECOMPUTEDUX_a4b0c23b99624b278d3df9f2c75c73cc_cajeros(go);
+if(runMethod.toLowerCase() != 'ajax'  && typeof window['PRECOMPUTEDUX_2d0c523b18b740f5b5ab4f23a0545d23_cajeros'] == 'function') { 
+	//PRECOMPUTED_UX_COMPONENT: {functionName: 'PRECOMPUTEDUX_2d0c523b18b740f5b5ab4f23a0545d23_cajeros', uxname: 'cajeros', alias: 'DLG1_CAJEROS'}
+	var jsToRun = PRECOMPUTEDUX_2d0c523b18b740f5b5ab4f23a0545d23_cajeros(go);
 	eval(jsToRun);
 	if(typeof go.onLoadCompleteJavascript != 'undefined') { 
 		var txt = go.onLoadCompleteJavascript.split(':')[1];
@@ -1011,9 +1000,9 @@ go.dialog2Div = panelCardId;
 	var runMethod = 'precomputed';
 if(DLG1_DlgObj._embeddedMode) runMethod = 'ajax';
 if(DLG1_DlgObj._staticHTMLMode) runMethod = 'precomputed';
-if(runMethod.toLowerCase() != 'ajax'  && typeof window['PRECOMPUTEDUX_fc1af991f78e4bf8bc31af9d2d4dbc61_credhip'] == 'function') { 
-	//PRECOMPUTED_UX_COMPONENT: {functionName: 'PRECOMPUTEDUX_fc1af991f78e4bf8bc31af9d2d4dbc61_credhip', uxname: 'credhip', alias: 'DLG1_CREDHIP'}
-	var jsToRun = PRECOMPUTEDUX_fc1af991f78e4bf8bc31af9d2d4dbc61_credhip(go);
+if(runMethod.toLowerCase() != 'ajax'  && typeof window['PRECOMPUTEDUX_5ab1f95065864aad8d3c7977060b9619_credhip'] == 'function') { 
+	//PRECOMPUTED_UX_COMPONENT: {functionName: 'PRECOMPUTEDUX_5ab1f95065864aad8d3c7977060b9619_credhip', uxname: 'credhip', alias: 'DLG1_CREDHIP'}
+	var jsToRun = PRECOMPUTEDUX_5ab1f95065864aad8d3c7977060b9619_credhip(go);
 	eval(jsToRun);
 	if(typeof go.onLoadCompleteJavascript != 'undefined') { 
 		var txt = go.onLoadCompleteJavascript.split(':')[1];
@@ -1037,7 +1026,7 @@ DLG1_DlgObj._functions.runAction_edd7af70_5b2e_41e7_9226_3f8c65c859ff = function
 	if(typeof objx == 'undefined') objx = {};
 	objx[callbackId] = Function(onCompleteCode);
 	var go = new Object();
-		go.dialog2Name = 'descuentosp';
+		go.dialog2Name = 'descuentosf';
 	go.type = 'dialog2';
 	go.alias = 'DLG1_DESCUENTOS';
 	go.workingMessage = '<img src="img/Cube-1s-200px.gif" style="position:relative;top:50%;left:50%;transform: translate(-50%, -50%);-webkit-transform:translate(-50%, -50%);-moz-transform: translatetranslate(-50%, -50%);-o-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);"/>';
@@ -1065,9 +1054,9 @@ go.dialog2Div = panelCardId;
 	var runMethod = 'precomputed';
 if(DLG1_DlgObj._embeddedMode) runMethod = 'ajax';
 if(DLG1_DlgObj._staticHTMLMode) runMethod = 'precomputed';
-if(runMethod.toLowerCase() != 'ajax'  && typeof window['PRECOMPUTEDUX_5c8cafc69d3546efa3555eb3ab8213d9_descuentosp'] == 'function') { 
-	//PRECOMPUTED_UX_COMPONENT: {functionName: 'PRECOMPUTEDUX_5c8cafc69d3546efa3555eb3ab8213d9_descuentosp', uxname: 'descuentosp', alias: 'DLG1_DESCUENTOS'}
-	var jsToRun = PRECOMPUTEDUX_5c8cafc69d3546efa3555eb3ab8213d9_descuentosp(go);
+if(runMethod.toLowerCase() != 'ajax'  && typeof window['PRECOMPUTEDUX_76350829c86e456c8b54dde21e0a40ab_descuentosf'] == 'function') { 
+	//PRECOMPUTED_UX_COMPONENT: {functionName: 'PRECOMPUTEDUX_76350829c86e456c8b54dde21e0a40ab_descuentosf', uxname: 'descuentosf', alias: 'DLG1_DESCUENTOS'}
+	var jsToRun = PRECOMPUTEDUX_76350829c86e456c8b54dde21e0a40ab_descuentosf(go);
 	eval(jsToRun);
 	if(typeof go.onLoadCompleteJavascript != 'undefined') { 
 		var txt = go.onLoadCompleteJavascript.split(':')[1];
@@ -1119,9 +1108,9 @@ go.dialog2Div = panelCardId;
 	var runMethod = 'precomputed';
 if(DLG1_DlgObj._embeddedMode) runMethod = 'ajax';
 if(DLG1_DlgObj._staticHTMLMode) runMethod = 'precomputed';
-if(runMethod.toLowerCase() != 'ajax'  && typeof window['PRECOMPUTEDUX_9123bd2b661742b2a61158fd6f1a9fe4_credcons'] == 'function') { 
-	//PRECOMPUTED_UX_COMPONENT: {functionName: 'PRECOMPUTEDUX_9123bd2b661742b2a61158fd6f1a9fe4_credcons', uxname: 'credcons', alias: 'DLG1_CREDCONS'}
-	var jsToRun = PRECOMPUTEDUX_9123bd2b661742b2a61158fd6f1a9fe4_credcons(go);
+if(runMethod.toLowerCase() != 'ajax'  && typeof window['PRECOMPUTEDUX_49f72e2ade2d4ae7a4978885dbd5a02b_credcons'] == 'function') { 
+	//PRECOMPUTED_UX_COMPONENT: {functionName: 'PRECOMPUTEDUX_49f72e2ade2d4ae7a4978885dbd5a02b_credcons', uxname: 'credcons', alias: 'DLG1_CREDCONS'}
+	var jsToRun = PRECOMPUTEDUX_49f72e2ade2d4ae7a4978885dbd5a02b_credcons(go);
 	eval(jsToRun);
 	if(typeof go.onLoadCompleteJavascript != 'undefined') { 
 		var txt = go.onLoadCompleteJavascript.split(':')[1];
@@ -1173,9 +1162,9 @@ go.dialog2Div = panelCardId;
 	var runMethod = 'precomputed';
 if(DLG1_DlgObj._embeddedMode) runMethod = 'ajax';
 if(DLG1_DlgObj._staticHTMLMode) runMethod = 'precomputed';
-if(runMethod.toLowerCase() != 'ajax'  && typeof window['PRECOMPUTEDUX_291d9c4e05304cebbb315c12d32812cb_cuentas'] == 'function') { 
-	//PRECOMPUTED_UX_COMPONENT: {functionName: 'PRECOMPUTEDUX_291d9c4e05304cebbb315c12d32812cb_cuentas', uxname: 'cuentas', alias: 'DLG1_CUENTAS'}
-	var jsToRun = PRECOMPUTEDUX_291d9c4e05304cebbb315c12d32812cb_cuentas(go);
+if(runMethod.toLowerCase() != 'ajax'  && typeof window['PRECOMPUTEDUX_258b6d5c615d42a28d0b6d6c6a97b5e7_cuentas'] == 'function') { 
+	//PRECOMPUTED_UX_COMPONENT: {functionName: 'PRECOMPUTEDUX_258b6d5c615d42a28d0b6d6c6a97b5e7_cuentas', uxname: 'cuentas', alias: 'DLG1_CUENTAS'}
+	var jsToRun = PRECOMPUTEDUX_258b6d5c615d42a28d0b6d6c6a97b5e7_cuentas(go);
 	eval(jsToRun);
 	if(typeof go.onLoadCompleteJavascript != 'undefined') { 
 		var txt = go.onLoadCompleteJavascript.split(':')[1];
@@ -1227,9 +1216,9 @@ go.dialog2Div = panelCardId;
 	var runMethod = 'precomputed';
 if(DLG1_DlgObj._embeddedMode) runMethod = 'ajax';
 if(DLG1_DlgObj._staticHTMLMode) runMethod = 'precomputed';
-if(runMethod.toLowerCase() != 'ajax'  && typeof window['PRECOMPUTEDUX_bf0d6a2a8aac45feb32cc29bc70e866a_analitica'] == 'function') { 
-	//PRECOMPUTED_UX_COMPONENT: {functionName: 'PRECOMPUTEDUX_bf0d6a2a8aac45feb32cc29bc70e866a_analitica', uxname: 'analitica', alias: 'DLG1_ANALITICA'}
-	var jsToRun = PRECOMPUTEDUX_bf0d6a2a8aac45feb32cc29bc70e866a_analitica(go);
+if(runMethod.toLowerCase() != 'ajax'  && typeof window['PRECOMPUTEDUX_adf61f04e50d40f9b3d31eed267029af_analitica'] == 'function') { 
+	//PRECOMPUTED_UX_COMPONENT: {functionName: 'PRECOMPUTEDUX_adf61f04e50d40f9b3d31eed267029af_analitica', uxname: 'analitica', alias: 'DLG1_ANALITICA'}
+	var jsToRun = PRECOMPUTEDUX_adf61f04e50d40f9b3d31eed267029af_analitica(go);
 	eval(jsToRun);
 	if(typeof go.onLoadCompleteJavascript != 'undefined') { 
 		var txt = go.onLoadCompleteJavascript.split(':')[1];
